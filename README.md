@@ -2,7 +2,7 @@
 Forkdrop Suite
 ==============
 
-A collection of tools and utilities to assist with privately and securely claiming of Bitcoin fork tokens. It is designed to be maximally secure and private by default by running on [TAILS][https://tails.boum.org] and only issuing external queries via Tor. It utilizes [blockchain.info's onion gateway](https://blockchainbdgpzk.onion) for obtaining Bitcoin balance info for specific addresses.
+A collection of tools and utilities to assist with privately and securely claiming of Bitcoin fork tokens. It is designed to be maximally secure and private by default by running on [TAILS](https://tails.boum.org) and only issuing external queries via Tor. It utilizes [blockchain.info's onion gateway](https://blockchainbdgpzk.onion) for obtaining Bitcoin balance info for specific addresses.
 
 The tools included find (infer) fork and airdrop coins from a list of public addresses and blockchain data. It generates you a list of specific instructions for going about claiming them including generating the commands you need to run. It helps you keep organized through complicated claiming tasks by storing a save file which can be kept on an encrypted USB drive or SD card. It also provides tools for scraping block explorers and SPV providers of particular coins to help locate balances.
 
@@ -18,7 +18,7 @@ These scripts do not access your private keys, but merely help getting you prepa
 Documentation
 ==============
 
-This is only a very brief overview, we suggest seeing our more detailed and screen shot-filled guides linked from the [the forkdrop.io page](https://forkdrop.io/suite) to help you get started.
+This is only a very brief overview, we suggest seeing our more detailed and screenshot-illustrated guides linked from the [the forkdrop.io page](https://forkdrop.io/suite) to help you get started.
 
 Transacting
 ===========
