@@ -45,9 +45,12 @@ as a result.
 
 
 MOVE_BTC_WARNING = """
-It is highly recommended that this BTC be moved to different addresses before
-these addresses before proceeding to move forked coins. A reasonable method for
-doing so is via Electrum which included in TAILS.
+It is highly recommended that this BTC be moved to different-secured addresses
+and private keys and or seed phrases before these addresses before proceeding
+to move forked coins. A reasonable method for doing so is via Electrum which
+included in TAILS.
+
+https://forkdrop.io/running-electrum-on-tails
 """
 
 MOVED_BTC = """
@@ -98,11 +101,11 @@ on a secure system and that this document be stored on only an encrypted drive.
 We have several guides provied to help with these tasks available at
 forkdrop.io:
 
-https://forkdrop.io/secure-live-boot-ubuntu-for-bitcoin-keys
-https://forkdrop.io/sd-card-for-saving-files-on-ubuntu-live-boot
-https://forkdrop.io/usb-drive-for-saving-files-on-ubuntu-live-boot
-https://forkdrop.io/running-bip-39-tool-on-secure-offline-ubuntu-system
-https://forkdrop.io/running-bitaddress-tool-on-secure-offline-ubuntu-system
+https://forkdrop.io/secure-live-boot-tails-for-bitcoin-keys
+https://forkdrop.io/sd-card-for-saving-files-on-tails-live-boot
+https://forkdrop.io/usb-drive-for-saving-files-on-tails-live-boot
+https://forkdrop.io/running-bip-39-tool-on-secure-offline-tails-system
+https://forkdrop.io/running-bitaddress-tool-on-secure-offline-tails-system
 
 Once you have obtained your private keys, the following strings in this
 document are available be replaced throughout with the private key
@@ -178,6 +181,10 @@ This might take a couple minutes to finish. Select 'Y' when prompted.
 
 Once installed, using the terminal command 'proxychains' in front of a
 bitcoin_fork_claimer script invocation will perform the necessary proxy step.
+
+This is also covered in detail with screenshots in the article:
+
+https://forkdrop.io/installing-and-using-proxychains-utility-on-tails-live-boot
 
 """
 
@@ -292,7 +299,7 @@ $ %s %s %s
 SEGWIT_WARNING = """
 This is a segwit (P2WPKH) or P2SH address. This may not work with the
 bitcoin_fork_claimer tool and/or the forked coin network may have trouble
-crediting balances to this type of output. This is certain to work.
+crediting balances to this type of output. This is not certain to work.
 """
 
 B32_WARNING = """

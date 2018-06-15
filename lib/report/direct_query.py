@@ -68,12 +68,11 @@ class DirectQueryValueSummary(ReportBase):
 ###############################################################################
 
 REPORT_STR = """
-This report contains a breakdown of %s value found and
-instructions for proceeding to claim. It has been written to a temporary
-directory. To preserve a copy, you must manually copy it to an external drive
-(preferably encrypted):
+This report contains a breakdown of %s value found and instructions for
+proceeding to claim. It has been written to a temporary directory. To preserve
+a copy, you must manually copy it to an external drive (preferably encrypted):
 
-amnesia@amnesia:~$ cp %s /media/amnesia/my_drive_name/
+amnesia@amnesia:~$ cp %s /media/amnesia/mydrive/
 
 The file claimed-value-tracking.json in the current directory can be edited to
 track which outputs have been claimed by invoking bitcoin_fork_claimer.
