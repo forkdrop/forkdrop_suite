@@ -6,7 +6,7 @@ A collection of tools and utilities to assist with privately and securely claimi
 
 The tools included find (infer) fork and airdrop coins from a list of public addresses and blockchain data. It generates you a list of specific instructions for going about claiming them including generating the commands you need to run. It helps you keep organized through complicated claiming tasks by storing a save file which can be kept on an encrypted USB drive or SD card. It also provides tools for scraping block explorers and SPV providers of particular coins to help locate balances.
 
-This project is affiliated with [Forkdrop.io](https://forkdrop.io) however it is licensed under the MIT for private use. We greatly appreciate any feedback, feature requests bug reports, contributions and [donations](https://forkdrop.io/why-should-i-donate-to-forkdrop).
+This project is affiliated with [Forkdrop.io](https://forkdrop.io) however it is licensed under the MIT for private use. We greatly appreciate any feedback, feature requests bug reports, contributions and [donations to support this effort](https://forkdrop.io/why-donate-to-forkdrop).
 
 Warning
 =======

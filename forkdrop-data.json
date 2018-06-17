@@ -1547,82 +1547,6 @@
   {
    "airdrop": false,
    "announcement": "",
-   "bech32": "True",
-   "bfc_support": "yes",
-   "coinmarketcap": "",
-   "depositable": false,
-   "donation_addr": "13uMJQCkGBXodcQBMGyQ2EwxJYpECMkDjW",
-   "explorer": "",
-   "flag_color": "none",
-   "fork": true,
-   "fork_block": "503888",
-   "fork_date": "2018-01-12",
-   "github": "https://github.com/worldbitcoin/worldbitcoin",
-   "id": "world-bitcoin",
-   "image": "images/forks/world-bitcoin-200x200.png",
-   "live": true,
-   "max_supply": "2.121 Billion",
-   "name": "World Bitcoin",
-   "prefix_p2pkh": [
-    0
-   ],
-   "prefix_p2sh": [
-    5
-   ],
-   "project": "http://www.wbtcteam.org/",
-   "rank": 27,
-   "ratio": "100:1",
-   "ratio_a": 100,
-   "ratio_c": 1,
-   "reg_airdrop": false,
-   "segwit": "True",
-   "segwit_na": false,
-   "source_chain": "Bitcoin (BTC)",
-   "ticker": "WBTC",
-   "twitter": "",
-   "update_date": "2018-05-31"
-  },
-  {
-   "airdrop": false,
-   "announcement": "",
-   "bech32": "True",
-   "bfc_support": "yes",
-   "coinmarketcap": "",
-   "depositable": false,
-   "donation_addr": "HBkCZHMjJSsAgtmKUzRc9cHM4RpHxYj8br",
-   "explorer": "",
-   "flag_color": "none",
-   "fork": true,
-   "fork_block": "498848",
-   "fork_date": "2017-12-12",
-   "github": "https://github.com/BitcoinHot/bitcoinhot",
-   "id": "bitcoin-hot",
-   "image": "images/forks/bitcoin-hot-200x200.png",
-   "live": true,
-   "max_supply": "2.1 Billion",
-   "name": "Bitcoin Hot",
-   "prefix_p2pkh": [
-    40
-   ],
-   "prefix_p2sh": [
-    5
-   ],
-   "project": "https://www.bithot.org/",
-   "rank": 28,
-   "ratio": "100:1",
-   "ratio_a": 100,
-   "ratio_c": 1,
-   "reg_airdrop": false,
-   "segwit": "True",
-   "segwit_na": false,
-   "source_chain": "Bitcoin (BTC)",
-   "ticker": "BTH",
-   "twitter": "https://twitter.com/Bitcoinhotf",
-   "update_date": "2018-05-31"
-  },
-  {
-   "airdrop": false,
-   "announcement": "",
    "bech32": "???",
    "bfc_support": "yes",
    "coinmarketcap": "",
@@ -1646,7 +1570,7 @@
     40
    ],
    "project": "http://bitcoinfaith.org/",
-   "rank": 29,
+   "rank": 27,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1684,7 +1608,7 @@
     5
    ],
    "project": "http://www.btceasypay.com/",
-   "rank": 30,
+   "rank": 28,
    "ratio": "10:1",
    "ratio_a": 10,
    "ratio_c": 1,
@@ -1722,7 +1646,7 @@
     5
    ],
    "project": "https://bitcoinclean.org/",
-   "rank": 31,
+   "rank": 29,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1760,7 +1684,7 @@
     85
    ],
    "project": "http://bigbitcoins.org/",
-   "rank": 32,
+   "rank": 30,
    "ratio": "10:1",
    "ratio_a": 10,
    "ratio_c": 1,
@@ -1798,7 +1722,7 @@
     85
    ],
    "project": "http://btchush.org/",
-   "rank": 33,
+   "rank": 31,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1836,7 +1760,7 @@
     5
    ],
    "project": "http://www.quantumbitcoin.top/yy.html",
-   "rank": 34,
+   "rank": 32,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1845,6 +1769,44 @@
    "segwit_na": false,
    "source_chain": "Bitcoin (BTC)",
    "ticker": "QBTC",
+   "twitter": "",
+   "update_date": "2018-05-31"
+  },
+  {
+   "airdrop": false,
+   "announcement": "",
+   "bech32": "True",
+   "bfc_support": "yes",
+   "coinmarketcap": "",
+   "depositable": false,
+   "donation_addr": "13uMJQCkGBXodcQBMGyQ2EwxJYpECMkDjW",
+   "explorer": "",
+   "flag_color": "none",
+   "fork": true,
+   "fork_block": "503888",
+   "fork_date": "2018-01-12",
+   "github": "https://github.com/worldbitcoin/worldbitcoin",
+   "id": "world-bitcoin",
+   "image": "images/forks/world-bitcoin-200x200.png",
+   "live": true,
+   "max_supply": "2.121 Billion",
+   "name": "World Bitcoin",
+   "prefix_p2pkh": [
+    0
+   ],
+   "prefix_p2sh": [
+    5
+   ],
+   "project": "http://www.wbtcteam.org/",
+   "rank": 33,
+   "ratio": "100:1",
+   "ratio_a": 100,
+   "ratio_c": 1,
+   "reg_airdrop": false,
+   "segwit": "True",
+   "segwit_na": false,
+   "source_chain": "Bitcoin (BTC)",
+   "ticker": "WBTC",
    "twitter": "",
    "update_date": "2018-05-31"
   },
@@ -1874,7 +1836,7 @@
     58
    ],
    "project": "http://btsq.top/en/index.html",
-   "rank": 35,
+   "rank": 34,
    "ratio": "1k:1",
    "ratio_a": 1000,
    "ratio_c": 1,
@@ -1885,6 +1847,44 @@
    "ticker": "BTSQ",
    "twitter": "https://twitter.com/",
    "update_date": "2018-05-31"
+  },
+  {
+   "airdrop": true,
+   "announcement": "https://bitcointalk.org/index.php?topic=2871452.0",
+   "bech32": "???",
+   "bfc_support": "no",
+   "coinmarketcap": "",
+   "depositable": false,
+   "donation_addr": "",
+   "explorer": "https://www.bitc2.org/block-explorer/",
+   "flag_color": "none",
+   "fork": false,
+   "fork_block": "507850",
+   "fork_date": "2018-02-05",
+   "github": "https://github.com/BITC2/bitcoin2",
+   "id": "bitcoin-2",
+   "image": "images/forks/bitcoin-2-200x200.png",
+   "live": true,
+   "max_supply": "21,000,000",
+   "name": "Bitcoin 2",
+   "prefix_p2pkh": [
+    0
+   ],
+   "prefix_p2sh": [
+    5
+   ],
+   "project": "https://www.bitc2.org/",
+   "rank": 35,
+   "ratio": "1:1",
+   "ratio_a": 1,
+   "ratio_c": 1,
+   "reg_airdrop": false,
+   "segwit": "???",
+   "segwit_na": false,
+   "source_chain": "Bitcoin (BTC)",
+   "ticker": "BTC2",
+   "twitter": "https://twitter.com/Bitc2org",
+   "update_date": "2018-06-14"
   },
   {
    "airdrop": false,
@@ -2116,44 +2116,6 @@
   },
   {
    "airdrop": true,
-   "announcement": "",
-   "bech32": "???",
-   "bfc_support": "no",
-   "coinmarketcap": "",
-   "depositable": false,
-   "donation_addr": "",
-   "explorer": "",
-   "flag_color": "none",
-   "fork": false,
-   "fork_block": "507850",
-   "fork_date": "2018-02-05",
-   "github": "https://github.com/BITC2/bitcoin2",
-   "id": "bitcoin-2",
-   "image": "images/forks/bitcoin-2-200x200.png",
-   "live": false,
-   "max_supply": "21,000,000",
-   "name": "Bitcoin 2",
-   "prefix_p2pkh": [
-    0
-   ],
-   "prefix_p2sh": [
-    5
-   ],
-   "project": "https://www.bitc2.org/",
-   "rank": 42,
-   "ratio": "1:1",
-   "ratio_a": 1,
-   "ratio_c": 1,
-   "reg_airdrop": false,
-   "segwit": "???",
-   "segwit_na": false,
-   "source_chain": "Bitcoin (BTC)",
-   "ticker": "BC2",
-   "twitter": "https://twitter.com/Bitc2org",
-   "update_date": "2018-05-31"
-  },
-  {
-   "airdrop": true,
    "announcement": "https://bitcointalk.org/index.php?topic=2958707.0",
    "bech32": "???",
    "bfc_support": "no",
@@ -2178,7 +2140,7 @@
     5
    ],
    "project": "https://www.bitcoinzerox.net/",
-   "rank": 43,
+   "rank": 42,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2216,7 +2178,7 @@
     5
    ],
    "project": "https://foxbtc.io/",
-   "rank": 44,
+   "rank": 43,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2250,7 +2212,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "https://microbitcoin.org/",
-   "rank": 45,
+   "rank": 44,
    "ratio": "10000:1",
    "ratio_a": 10000,
    "ratio_c": 1,
@@ -2288,7 +2250,7 @@
     5
    ],
    "project": "http://bitcoinclashic.org/",
-   "rank": 46,
+   "rank": 45,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2322,7 +2284,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "http://www.bitcoinair.org/",
-   "rank": 47,
+   "rank": 46,
    "ratio": "1:7.5",
    "ratio_a": 10,
    "ratio_c": 75,
@@ -2356,7 +2318,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "http://bitcoinhex.com/",
-   "rank": 48,
+   "rank": 47,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2394,7 +2356,7 @@
     38
    ],
    "project": "http://bitcoinlambo.tech/",
-   "rank": 49,
+   "rank": 48,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2432,7 +2394,7 @@
     5
    ],
    "project": "http://www.bitcoincashplus.org/",
-   "rank": 50,
+   "rank": 49,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2466,7 +2428,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "http://bitcoinclass.one/",
-   "rank": 51,
+   "rank": 50,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2504,7 +2466,7 @@
     5
    ],
    "project": "https://bitcoinpro.team",
-   "rank": 52,
+   "rank": 51,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2542,7 +2504,7 @@
     5
    ],
    "project": "http://bitcoinall.org/",
-   "rank": 53,
+   "rank": 52,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -2580,7 +2542,7 @@
     5
    ],
    "project": "http://www.bitcoinore.org/",
-   "rank": 54,
+   "rank": 53,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2618,7 +2580,7 @@
     5
    ],
    "project": "http://www.btcscoin.com/index_en.html",
-   "rank": 55,
+   "rank": 54,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -2656,7 +2618,7 @@
     5
    ],
    "project": "http://qeditas.org/",
-   "rank": 56,
+   "rank": 55,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2694,7 +2656,7 @@
     5
    ],
    "project": "http://www.bitcoinholocaust.org/",
-   "rank": 57,
+   "rank": 56,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2732,7 +2694,7 @@
     5
    ],
    "project": "http://www.btcti.org/",
-   "rank": 58,
+   "rank": 57,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2770,7 +2732,7 @@
     5
    ],
    "project": "http://bcs.info/",
-   "rank": 59,
+   "rank": 58,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -2808,7 +2770,7 @@
     5
    ],
    "project": "https://bitcoindollar.io/",
-   "rank": 60,
+   "rank": 59,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -2846,7 +2808,7 @@
     5
    ],
    "project": "http://www.smartbitcoin.one/",
-   "rank": 61,
+   "rank": 60,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2884,7 +2846,7 @@
     5
    ],
    "project": "https://bitclassic.info",
-   "rank": 62,
+   "rank": 61,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2922,7 +2884,7 @@
     5
    ],
    "project": "http://www.oilbtc.io/index_en.html",
-   "rank": 63,
+   "rank": 62,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2956,7 +2918,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "",
-   "rank": 64,
+   "rank": 63,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2994,7 +2956,7 @@
     5
    ],
    "project": "https://www.bitcoinfile.org/en/",
-   "rank": 65,
+   "rank": 64,
    "ratio": "1k:1",
    "ratio_a": 1000,
    "ratio_c": 1,
@@ -3032,7 +2994,7 @@
     5
    ],
    "project": "http://bitcoinboy.org/",
-   "rank": 66,
+   "rank": 65,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -3070,7 +3032,7 @@
     5
    ],
    "project": "https://btcblvck.io/",
-   "rank": 67,
+   "rank": 66,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3108,7 +3070,7 @@
     5
    ],
    "project": "http://biteco.io/",
-   "rank": 68,
+   "rank": 67,
    "ratio": "10k:1",
    "ratio_a": 10000,
    "ratio_c": 1,
@@ -3146,7 +3108,7 @@
     5
    ],
    "project": "https://bitcoincoral.com/",
-   "rank": 69,
+   "rank": 68,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3184,7 +3146,7 @@
     5
    ],
    "project": "http://bitcoinsudu.com/",
-   "rank": 70,
+   "rank": 69,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3195,6 +3157,44 @@
    "ticker": "SUDU",
    "twitter": "",
    "update_date": "2018-05-31"
+  },
+  {
+   "airdrop": false,
+   "announcement": "",
+   "bech32": "???",
+   "bfc_support": "no",
+   "coinmarketcap": "",
+   "depositable": false,
+   "donation_addr": "HBkCZHMjJSsAgtmKUzRc9cHM4RpHxYj8br",
+   "explorer": "",
+   "flag_color": "red",
+   "fork": false,
+   "fork_block": "498848",
+   "fork_date": "2017-12-12",
+   "github": "https://github.com/BitcoinHot/bitcoinhot",
+   "id": "bitcoin-hot",
+   "image": "images/forks/bitcoin-hot-200x200.png",
+   "live": false,
+   "max_supply": "2.1 Billion",
+   "name": "Bitcoin Hot",
+   "prefix_p2pkh": [
+    40
+   ],
+   "prefix_p2sh": [
+    5
+   ],
+   "project": "https://www.bithot.org/",
+   "rank": 70,
+   "ratio": "100:1",
+   "ratio_a": 100,
+   "ratio_c": 1,
+   "reg_airdrop": true,
+   "segwit": "???",
+   "segwit_na": false,
+   "source_chain": "Bitcoin (BTC)",
+   "ticker": "BTH",
+   "twitter": "https://twitter.com/BitcoinhotF",
+   "update_date": "2018-06-17"
   },
   {
    "airdrop": false,
@@ -3569,14 +3569,14 @@
      "url": "bitcoin-world"
     },
     {
-     "name": "Bitcoin Hot",
-     "symbol": "BTH",
-     "url": "bitcoin-hot"
-    },
-    {
      "name": "Bitcoin Faith",
      "symbol": "BTF",
      "url": "bitcoin-faith"
+    },
+    {
+     "name": "Bitcoin Hot",
+     "symbol": "BTH",
+     "url": "bitcoin-hot"
     },
     {
      "name": "Bitcoin King",
@@ -5737,14 +5737,14 @@
      "url": "bitcoin-world"
     },
     {
-     "name": "Bitcoin Hot",
-     "symbol": "BTH",
-     "url": "bitcoin-hot"
-    },
-    {
      "name": "Bitcoin Pay",
      "symbol": "BTP",
      "url": "bitcoin-pay"
+    },
+    {
+     "name": "Bitcoin Hot",
+     "symbol": "BTH",
+     "url": "bitcoin-hot"
     }
    ],
    "homepage": "https://www.qbtc.com/",

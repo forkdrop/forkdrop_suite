@@ -238,7 +238,9 @@ class CoinExchangeReport(ReportBase):
 DONATION_REMINDER = """
 Lots of hard work went into providing this free stack of software.
 
-Support forkdrop.io and the forkdrop_suite tools:
+https://forkdrop.io/why-donate-to-forkdrop
+
+Addresses to support forkdrop.io and the forkdrop_suite tools:
 
 %s
 
