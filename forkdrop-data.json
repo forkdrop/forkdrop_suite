@@ -256,10 +256,10 @@
    "ratio_a": 1,
    "ratio_c": 1,
    "reg_airdrop": false,
-   "source_chain": "Ethereum (ETC)",
+   "source_chain": "Ethereum (ETH)",
    "ticker": "ETZ",
    "twitter": "https://twitter.com/EtherZero_org",
-   "update_date": "2018-05-18"
+   "update_date": "2018-07-11"
   },
   {
    "airdrop": false,
@@ -408,6 +408,35 @@
   },
   {
    "airdrop": false,
+   "announcement": "",
+   "coinmarketcap": "",
+   "depositable": false,
+   "explorer": "",
+   "flag_color": "none",
+   "fork": true,
+   "fork_block": "6100000",
+   "fork_date": "2018-07-13",
+   "forked_from": "Ethereum Classic",
+   "forked_from_cmc": "https://coinmarketcap.com/currencies/ethereum-classic/",
+   "github": "",
+   "id": "ethereum-emerald",
+   "image": "images/forks/ethereum-emerald-200x200.png",
+   "live": false,
+   "max_supply": "408 Million",
+   "name": "Ethereum Emerald",
+   "project": "http://www.etheremerald.org/",
+   "rank": 15,
+   "ratio": "1:1",
+   "ratio_a": 1,
+   "ratio_c": 1,
+   "reg_airdrop": false,
+   "source_chain": "Ethereum Classic (ETC)",
+   "ticker": "ETE",
+   "twitter": "https://twitter.com/ether_emerald",
+   "update_date": "2018-07-11"
+  },
+  {
+   "airdrop": false,
    "announcement": "https://bitcointalk.org/index.php?topic=3040998.0",
    "coinmarketcap": "",
    "depositable": false,
@@ -425,7 +454,7 @@
    "max_supply": "148,000,000",
    "name": "Ethereum Crystal",
    "project": "https://ethereumcrystal.org/",
-   "rank": 15,
+   "rank": 16,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -454,7 +483,7 @@
    "max_supply": "???",
    "name": "Super Litecoin",
    "project": "http://www.superltc.com/",
-   "rank": 16,
+   "rank": 17,
    "ratio": "???",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -483,7 +512,7 @@
    "max_supply": "210,000,000",
    "name": "EtherGold",
    "project": "http://ethergold.gold/",
-   "rank": 17,
+   "rank": 18,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -512,7 +541,7 @@
    "max_supply": "126,000,000",
    "name": "Litecoin Private",
    "project": "https://litecoinprivate.co/",
-   "rank": 18,
+   "rank": 19,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -541,7 +570,7 @@
    "max_supply": "51.2 Million",
    "name": "Monero Cash",
    "project": "https://moneroc.org",
-   "rank": 19,
+   "rank": 20,
    "ratio": "2:1",
    "ratio_a": 2,
    "ratio_c": 1,
@@ -552,7 +581,7 @@
    "update_date": "2018-05-17"
   }
  ],
- "altcoin_n": 19,
+ "altcoin_n": 20,
  "bitcoin": [
   {
    "airdrop": false,
@@ -721,7 +750,7 @@
    "fork": true,
    "fork_block": "499999",
    "fork_date": "2017-12-18",
-   "github": "",
+   "github": "https://github.com/lbtcio/lbtc-core",
    "id": "lightning-bitcoin",
    "image": "images/forks/lightning-bitcoin-200x200.png",
    "live": true,
@@ -744,7 +773,7 @@
    "source_chain": "Bitcoin (BTC)",
    "ticker": "LBTC",
    "twitter": "https://twitter.com/LightningBTC",
-   "update_date": "2018-05-31"
+   "update_date": "2018-06-24"
   },
   {
    "airdrop": false,
@@ -1166,44 +1195,6 @@
   },
   {
    "airdrop": false,
-   "announcement": "https://bitcointalk.org/index.php?topic=2572775.0",
-   "bech32": "???",
-   "bfc_support": "yes",
-   "coinmarketcap": "",
-   "depositable": true,
-   "donation_addr": "P9NqJLeKNy89j4L78Dm1CLZdu4XrPZHFwy",
-   "explorer": "",
-   "flag_color": "none",
-   "fork": true,
-   "fork_block": "501888",
-   "fork_date": "2017-12-31",
-   "github": "https://github.com/DAGBPA/BitcoinPizza/",
-   "id": "bitcoin-pizza",
-   "image": "images/forks/bitcoin-pizza-200x200.png",
-   "live": true,
-   "max_supply": "21,000,000",
-   "name": "Bitcoin Pizza",
-   "prefix_p2pkh": [
-    55
-   ],
-   "prefix_p2sh": [
-    80
-   ],
-   "project": "http://www.p.top/en/index.html",
-   "rank": 17,
-   "ratio": "1:1",
-   "ratio_a": 1,
-   "ratio_c": 1,
-   "reg_airdrop": false,
-   "segwit": "True",
-   "segwit_na": false,
-   "source_chain": "Bitcoin (BTC)",
-   "ticker": "BPA",
-   "twitter": "https://twitter.com/pizzabitcoin",
-   "update_date": "2018-05-31"
-  },
-  {
-   "airdrop": false,
    "announcement": "",
    "bech32": "True",
    "bfc_support": "yes",
@@ -1228,7 +1219,7 @@
     5
    ],
    "project": "https://www.bitcointop.org/",
-   "rank": 18,
+   "rank": 17,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1266,7 +1257,7 @@
     5
    ],
    "project": "https://fbtc.pro/index-en.html",
-   "rank": 19,
+   "rank": 18,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1304,7 +1295,7 @@
     5
    ],
    "project": "http://www.bitvote.one/",
-   "rank": 20,
+   "rank": 19,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1342,7 +1333,7 @@
     88
    ],
    "project": "https://cdy.one/index_EN.html",
-   "rank": 21,
+   "rank": 20,
    "ratio": "1k:1",
    "ratio_a": 1000,
    "ratio_c": 1,
@@ -1380,7 +1371,7 @@
     5
    ],
    "project": "http://www.bitcoinwonder.io/",
-   "rank": 22,
+   "rank": 21,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1418,17 +1409,17 @@
     23
    ],
    "project": "https://www.bitcoingod.org/",
-   "rank": 23,
+   "rank": 22,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
    "reg_airdrop": false,
-   "segwit": "???",
+   "segwit": "True",
    "segwit_na": false,
    "source_chain": "Bitcoin (BTC)",
    "ticker": "GOD",
    "twitter": "https://twitter.com/BitcoinGodOrg",
-   "update_date": "2018-05-31"
+   "update_date": "2018-07-08"
   },
   {
    "airdrop": false,
@@ -1456,7 +1447,7 @@
     5
    ],
    "project": "http://www.newbitcoin.org/index_en.html",
-   "rank": 24,
+   "rank": 23,
    "ratio": "2:1",
    "ratio_a": 2,
    "ratio_c": 1,
@@ -1494,7 +1485,7 @@
     5
    ],
    "project": "http://bicc.io/en",
-   "rank": 25,
+   "rank": 24,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1532,7 +1523,7 @@
     5
    ],
    "project": "http://xenon.network/",
-   "rank": 26,
+   "rank": 25,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -1570,7 +1561,7 @@
     40
    ],
    "project": "http://bitcoinfaith.org/",
-   "rank": 27,
+   "rank": 26,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1608,7 +1599,7 @@
     5
    ],
    "project": "http://www.btceasypay.com/",
-   "rank": 28,
+   "rank": 27,
    "ratio": "10:1",
    "ratio_a": 10,
    "ratio_c": 1,
@@ -1646,7 +1637,7 @@
     5
    ],
    "project": "https://bitcoinclean.org/",
-   "rank": 29,
+   "rank": 28,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1684,7 +1675,7 @@
     5
    ],
    "project": "https://www.bitcoinfile.org/en/",
-   "rank": 30,
+   "rank": 29,
    "ratio": "1k:1",
    "ratio_a": 1000,
    "ratio_c": 1,
@@ -1722,7 +1713,7 @@
     85
    ],
    "project": "http://bigbitcoins.org/",
-   "rank": 31,
+   "rank": 30,
    "ratio": "10:1",
    "ratio_a": 10,
    "ratio_c": 1,
@@ -1760,7 +1751,7 @@
     85
    ],
    "project": "http://btchush.org/",
-   "rank": 32,
+   "rank": 31,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1798,7 +1789,7 @@
     5
    ],
    "project": "http://www.quantumbitcoin.top/yy.html",
-   "rank": 33,
+   "rank": 32,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1836,7 +1827,7 @@
     5
    ],
    "project": "http://www.wbtcteam.org/",
-   "rank": 34,
+   "rank": 33,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -1874,7 +1865,7 @@
     58
    ],
    "project": "http://btsq.top/en/index.html",
-   "rank": 35,
+   "rank": 34,
    "ratio": "1k:1",
    "ratio_a": 1000,
    "ratio_c": 1,
@@ -1912,7 +1903,7 @@
     5
    ],
    "project": "https://www.bitc2.org/",
-   "rank": 36,
+   "rank": 35,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1950,7 +1941,7 @@
     5
    ],
    "project": "https://www.btcnano.org/index.html",
-   "rank": 37,
+   "rank": 36,
    "ratio": "1000:1",
    "ratio_a": 1000,
    "ratio_c": 1,
@@ -1961,6 +1952,44 @@
    "ticker": "BN",
    "twitter": "https://twitter.com/BitcoinNano1",
    "update_date": "2018-05-31"
+  },
+  {
+   "airdrop": false,
+   "announcement": "https://bitcointalk.org/index.php?topic=2572775.0",
+   "bech32": "???",
+   "bfc_support": "yes",
+   "coinmarketcap": "",
+   "depositable": false,
+   "donation_addr": "P9NqJLeKNy89j4L78Dm1CLZdu4XrPZHFwy",
+   "explorer": "",
+   "flag_color": "none",
+   "fork": true,
+   "fork_block": "501888",
+   "fork_date": "2017-12-31",
+   "github": "https://github.com/DAGBPA/BitcoinPizza/",
+   "id": "bitcoin-pizza",
+   "image": "images/forks/bitcoin-pizza-200x200.png",
+   "live": false,
+   "max_supply": "21,000,000",
+   "name": "Bitcoin Pizza",
+   "prefix_p2pkh": [
+    55
+   ],
+   "prefix_p2sh": [
+    80
+   ],
+   "project": "http://www.p.top/en/index.html",
+   "rank": 37,
+   "ratio": "1:1",
+   "ratio_a": 1,
+   "ratio_c": 1,
+   "reg_airdrop": false,
+   "segwit": "True",
+   "segwit_na": false,
+   "source_chain": "Bitcoin (BTC)",
+   "ticker": "BPA",
+   "twitter": "https://twitter.com/pizzabitcoin",
+   "update_date": "2018-07-05"
   },
   {
    "airdrop": true,
@@ -2370,6 +2399,40 @@
   },
   {
    "airdrop": false,
+   "announcement": "",
+   "bech32": "???",
+   "bfc_support": "no",
+   "coinmarketcap": "",
+   "depositable": false,
+   "donation_addr": "",
+   "explorer": "",
+   "flag_color": "none",
+   "fork": false,
+   "fork_block": "TBD",
+   "fork_date": "TBD",
+   "github": "",
+   "id": "bitcoin-origin",
+   "image": "images/forks/bitcoin-origin-200x200.png",
+   "live": false,
+   "max_supply": "35 Billion",
+   "name": "Bitcoin Origin",
+   "prefix_p2pkh": [],
+   "prefix_p2sh": [],
+   "project": "https://www.bitcoinorigin.io/",
+   "rank": 49,
+   "ratio": "???",
+   "ratio_a": 1,
+   "ratio_c": 1,
+   "reg_airdrop": true,
+   "segwit": "???",
+   "segwit_na": false,
+   "source_chain": "Bitcoin (BTC)",
+   "ticker": "ORI",
+   "twitter": "https://twitter.com/BitcoinOriginHQ",
+   "update_date": "2018-06-28"
+  },
+  {
+   "airdrop": false,
    "announcement": "https://bitcointalk.org/index.php?topic=4329759",
    "bech32": "???",
    "bfc_support": "no",
@@ -2394,7 +2457,7 @@
     38
    ],
    "project": "http://bitcoinlambo.tech/",
-   "rank": 49,
+   "rank": 50,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2432,7 +2495,7 @@
     5
    ],
    "project": "http://www.bitcoincashplus.org/",
-   "rank": 50,
+   "rank": 51,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2466,7 +2529,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "http://bitcoinclass.one/",
-   "rank": 51,
+   "rank": 52,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2504,7 +2567,7 @@
     5
    ],
    "project": "https://bitcoinpro.team",
-   "rank": 52,
+   "rank": 53,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2542,7 +2605,7 @@
     5
    ],
    "project": "http://bitcoinall.org/",
-   "rank": 53,
+   "rank": 54,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -2580,7 +2643,7 @@
     5
    ],
    "project": "http://www.bitcoinore.org/",
-   "rank": 54,
+   "rank": 55,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2618,7 +2681,7 @@
     5
    ],
    "project": "http://www.btcscoin.com/index_en.html",
-   "rank": 55,
+   "rank": 56,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -2656,7 +2719,7 @@
     5
    ],
    "project": "http://qeditas.org/",
-   "rank": 56,
+   "rank": 57,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2694,7 +2757,7 @@
     5
    ],
    "project": "http://www.bitcoinholocaust.org/",
-   "rank": 57,
+   "rank": 58,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2732,7 +2795,7 @@
     5
    ],
    "project": "http://www.btcti.org/",
-   "rank": 58,
+   "rank": 59,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2770,7 +2833,7 @@
     5
    ],
    "project": "http://bcs.info/",
-   "rank": 59,
+   "rank": 60,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -2808,7 +2871,7 @@
     5
    ],
    "project": "https://bitcoindollar.io/",
-   "rank": 60,
+   "rank": 61,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -2846,7 +2909,7 @@
     5
    ],
    "project": "http://www.smartbitcoin.one/",
-   "rank": 61,
+   "rank": 62,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2884,7 +2947,7 @@
     5
    ],
    "project": "https://bitclassic.info",
-   "rank": 62,
+   "rank": 63,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2922,7 +2985,7 @@
     5
    ],
    "project": "http://www.oilbtc.io/index_en.html",
-   "rank": 63,
+   "rank": 64,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2956,7 +3019,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "",
-   "rank": 64,
+   "rank": 65,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2994,7 +3057,7 @@
     5
    ],
    "project": "http://bitcoinboy.org/",
-   "rank": 65,
+   "rank": 66,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -3032,7 +3095,7 @@
     5
    ],
    "project": "https://btcblvck.io/",
-   "rank": 66,
+   "rank": 67,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3070,7 +3133,7 @@
     5
    ],
    "project": "http://biteco.io/",
-   "rank": 67,
+   "rank": 68,
    "ratio": "10k:1",
    "ratio_a": 10000,
    "ratio_c": 1,
@@ -3108,7 +3171,7 @@
     5
    ],
    "project": "https://bitcoincoral.com/",
-   "rank": 68,
+   "rank": 69,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3146,7 +3209,7 @@
     5
    ],
    "project": "http://bitcoinsudu.com/",
-   "rank": 69,
+   "rank": 70,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3184,7 +3247,7 @@
     5
    ],
    "project": "https://www.bithot.org/",
-   "rank": 70,
+   "rank": 71,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -3222,7 +3285,7 @@
     5
    ],
    "project": "https://btcking.org/",
-   "rank": 71,
+   "rank": 72,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3256,7 +3319,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "https://btcx2.com/",
-   "rank": 72,
+   "rank": 73,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3294,7 +3357,7 @@
     5
    ],
    "project": "https://www.bitcoinmetal.org/",
-   "rank": 73,
+   "rank": 74,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3308,7 +3371,7 @@
   }
  ],
  "bitcoin_donation": "3QLFLTTuV82LzJUMzh2RoDW2t7FeHLYYad",
- "bitcoin_n": 73,
+ "bitcoin_n": 74,
  "exchanges": [
   {
    "btc_withdraw_fee": "0.5%",
@@ -3912,11 +3975,6 @@
      "url": "bitcoin-stake"
     },
     {
-     "name": "Bitcoin Smart",
-     "symbol": "BCS",
-     "url": "bitcoin-smart"
-    },
-    {
      "name": "Bitcoin Coral",
      "symbol": "BTCO",
      "url": "bitcoin-coral"
@@ -3944,7 +4002,7 @@
    "register": "https://yobit.net/en/#",
    "trade_fee": "0.2%",
    "twitter": "https://twitter.com/YobitExchange",
-   "update_date": "2018-05-24"
+   "update_date": "2018-06-25"
   },
   {
    "btc_withdraw_fee": "0.00135",
@@ -4050,6 +4108,11 @@
      "url": "ethereum-classic"
     },
     {
+     "name": "SAFE",
+     "symbol": "SAFE",
+     "url": "safe"
+    },
+    {
      "name": "MoneroV",
      "symbol": "XMV",
      "url": "monerov"
@@ -4069,7 +4132,7 @@
    "register": "https://crex24.com/register",
    "trade_fee": "0%-0.10%",
    "twitter": "https://twitter.com/Crex_24",
-   "update_date": "2018-05-24"
+   "update_date": "2018-06-23"
   },
   {
    "btc_withdraw_fee": "0.0005",
@@ -4704,11 +4767,6 @@
      "name": "SAFE",
      "symbol": "SAFE",
      "url": "safe"
-    },
-    {
-     "name": "ABitchain",
-     "symbol": "ABTC",
-     "url": "abitchain"
     }
    ],
    "flag_color": "none",
@@ -4741,7 +4799,7 @@
    "register": "https://www.coinegg.com/user/register",
    "trade_fee": "0.1%",
    "twitter": "https://twitter.com/CoinEgg_LTD",
-   "update_date": "2018-05-04"
+   "update_date": "2018-07-09"
   },
   {
    "btc_withdraw_fee": "0.001",
@@ -4860,31 +4918,6 @@
    "update_date": "2018-04-24"
   },
   {
-   "btc_withdraw_fee": "0.5%",
-   "deposit": [
-    {
-     "name": "Bitcoin King",
-     "symbol": "BCK",
-     "url": "bitcoin-king"
-    }
-   ],
-   "flag_color": "none",
-   "futures": [],
-   "homepage": "https://www.ucoin.pw/",
-   "id": "u-coin",
-   "image": "images/exchanges/u-coin-200x200.png",
-   "kyc_withdraw": "???",
-   "location": "Australia",
-   "min_withdraw": "0.0",
-   "name": "U-Coin",
-   "rank": 25,
-   "referral": "https://www.ucoin.pw/reg?invitationCode=y3X1eQLWXxr",
-   "register": "https://www.ucoin.pw/reg",
-   "trade_fee": "0.2%",
-   "twitter": "https://twitter.com/uncoinex",
-   "update_date": "2018-04-24"
-  },
-  {
    "btc_withdraw_fee": "0.001",
    "deposit": [
     {
@@ -4938,7 +4971,7 @@
    "location": "Hong Kong",
    "min_withdraw": "0.01",
    "name": "Huobi",
-   "rank": 26,
+   "rank": 25,
    "referral": "https://www.huobipro.com/en-us/topic/invited/?invite_code=dhb23",
    "register": "https://www.huobi.pro/register/",
    "trade_fee": "0.2%",
@@ -4978,7 +5011,7 @@
    "location": "???",
    "min_withdraw": "???",
    "name": "CryptoBridge",
-   "rank": 27,
+   "rank": 26,
    "referral": "",
    "register": "https://wallet.crypto-bridge.org/create-account/password",
    "trade_fee": "0.2%",
@@ -5018,7 +5051,7 @@
    "location": "???",
    "min_withdraw": "???",
    "name": "Easyrabbit",
-   "rank": 28,
+   "rank": 27,
    "referral": "",
    "register": "https://easyrabbit.net/",
    "trade_fee": "???",
@@ -5053,7 +5086,7 @@
    "location": "Turkey",
    "min_withdraw": "0.002",
    "name": "Sistemkoin",
-   "rank": 29,
+   "rank": 28,
    "referral": "https://sistemkoin.com/#/ref/4098523929",
    "register": "https://sistemkoin.com/",
    "trade_fee": "0.15%",
@@ -5088,7 +5121,7 @@
    "location": "USA",
    "min_withdraw": "0.0",
    "name": "Poloniex",
-   "rank": 30,
+   "rank": 29,
    "referral": "",
    "register": "https://poloniex.com/signup",
    "trade_fee": "0.15%-0.25%",
@@ -5109,18 +5142,19 @@
      "url": "united-bitcoin"
     },
     {
-     "name": "Bitcoin Pizza",
-     "symbol": "BPA",
-     "url": "bitcoin-pizza"
-    },
-    {
      "name": "SAFE",
      "symbol": "SAFE",
      "url": "safe"
     }
    ],
    "flag_color": "none",
-   "futures": [],
+   "futures": [
+    {
+     "name": "Bitcoin Pizza",
+     "symbol": "BPA",
+     "url": "bitcoin-pizza"
+    }
+   ],
    "homepage": "https://hb.top ",
    "id": "hb-top",
    "image": "images/exchanges/hb-top-200x200.png",
@@ -5128,12 +5162,12 @@
    "location": "Hong Kong",
    "min_withdraw": "0.01",
    "name": "Hb.top",
-   "rank": 31,
+   "rank": 30,
    "referral": "https://www.hb.top/web/user/reg.do?i=512883239",
    "register": "https://hb.top/web/user/reg.do",
    "trade_fee": "0.1%",
    "twitter": "https://twitter.com/CryptoHBtop",
-   "update_date": "2018-05-19"
+   "update_date": "2018-07-05"
   },
   {
    "btc_withdraw_fee": "0.0005",
@@ -5173,7 +5207,7 @@
    "location": "USA",
    "min_withdraw": "0.0",
    "name": "Bittrex",
-   "rank": 32,
+   "rank": 31,
    "referral": "",
    "register": "https://bittrex.com/Account/Register",
    "trade_fee": "0.25%",
@@ -5208,7 +5242,7 @@
    "location": "Brazil",
    "min_withdraw": "0.001",
    "name": "Bleutrade",
-   "rank": 33,
+   "rank": 32,
    "referral": "https://bleutrade.com/sign_up/215335",
    "register": "https://bleutrade.com/sign_up",
    "trade_fee": "0.25%",
@@ -5243,7 +5277,7 @@
    "location": "cyprus",
    "min_withdraw": "0.001",
    "name": "Bitibu",
-   "rank": 34,
+   "rank": 33,
    "referral": "",
    "register": "https://bitibu.com/signup",
    "trade_fee": "0.1%",
@@ -5268,7 +5302,7 @@
    "location": "Australia",
    "min_withdraw": "0.001",
    "name": "TopBTC",
-   "rank": 35,
+   "rank": 34,
    "referral": "https://www.topbtc.com/?invit=139211",
    "register": "https://www.topbtc.com/home/account/reg.html",
    "trade_fee": "0.2%",
@@ -5298,7 +5332,7 @@
    "location": "Canada",
    "min_withdraw": "0.001",
    "name": "QuadrigaCX",
-   "rank": 36,
+   "rank": 35,
    "referral": "https://www.quadrigacx.com/?ref=eupjl1u9yzs88hn65ig1zjj9",
    "register": "https://www.quadrigacx.com/register",
    "trade_fee": "0.2%-0.5%",
@@ -5333,7 +5367,7 @@
    "location": "United Kingdom",
    "min_withdraw": "0.001",
    "name": "Mercatox",
-   "rank": 37,
+   "rank": 36,
    "referral": "https://mercatox.com/?referrer=287314",
    "register": "https://mercatox.com/auth/register",
    "trade_fee": "0.25%",
@@ -5364,7 +5398,7 @@
    "location": "???",
    "min_withdraw": "0.001",
    "name": "Graviex",
-   "rank": 38,
+   "rank": 37,
    "referral": "",
    "register": "https://graviex.net/signup",
    "trade_fee": "0.2%",
@@ -5389,7 +5423,7 @@
    "location": "???",
    "min_withdraw": "0.002",
    "name": "OpenTrade",
-   "rank": 39,
+   "rank": 38,
    "referral": "",
    "register": "https://trade.multicoins.org/signup",
    "trade_fee": "0.1%",
@@ -5424,7 +5458,7 @@
    "location": "South Korea",
    "min_withdraw": "0.0",
    "name": "Bithumb",
-   "rank": 40,
+   "rank": 39,
    "referral": "",
    "register": "https://www.bithumb.com/u1/US106",
    "trade_fee": "0.15%",
@@ -5464,7 +5498,7 @@
    "location": "South Korea",
    "min_withdraw": "0.0",
    "name": "Upbit",
-   "rank": 41,
+   "rank": 40,
    "referral": "",
    "register": "https://upbit.com/signin",
    "trade_fee": "0.05%-0.25%",
@@ -5494,7 +5528,7 @@
    "location": "Australia",
    "min_withdraw": "???",
    "name": "ACX.io",
-   "rank": 42,
+   "rank": 41,
    "referral": "",
    "register": "https://acx.io/authentication/sign_up",
    "trade_fee": "0.2%",
@@ -5540,7 +5574,7 @@
    "location": "Japan",
    "min_withdraw": "0.002",
    "name": "Binance",
-   "rank": 43,
+   "rank": 42,
    "referral": "https://www.binance.com/?ref=26637735",
    "register": "https://www.binance.com/register.html",
    "trade_fee": "0.1%",
@@ -5586,7 +5620,7 @@
    "location": "Hong Kong",
    "min_withdraw": "0.0",
    "name": "ChaoEx",
-   "rank": 44,
+   "rank": 43,
    "referral": "https://www.chaoex.com/register/B449MM5",
    "register": "https://www.chaoex.com/register",
    "trade_fee": "0.075%",
@@ -5627,7 +5661,7 @@
    "location": "Singapore",
    "min_withdraw": "0.001",
    "name": "KEX",
-   "rank": 45,
+   "rank": 44,
    "referral": "",
    "register": "https://kex.com/user/register.html",
    "trade_fee": "0.1%",
@@ -5638,18 +5672,19 @@
    "btc_withdraw_fee": "0.1%",
    "deposit": [
     {
-     "name": "Bitcoin Pizza",
-     "symbol": "BPA",
-     "url": "bitcoin-pizza"
-    },
-    {
      "name": "SAFE",
      "symbol": "SAFE",
      "url": "safe"
     }
    ],
    "flag_color": "none",
-   "futures": [],
+   "futures": [
+    {
+     "name": "Bitcoin Pizza",
+     "symbol": "BPA",
+     "url": "bitcoin-pizza"
+    }
+   ],
    "homepage": "https://www.fubt.top/",
    "id": "fubt",
    "image": "images/exchanges/fubt-200x200.png",
@@ -5657,12 +5692,12 @@
    "location": "Hong Kong",
    "min_withdraw": "0.01",
    "name": "FuBT",
-   "rank": 46,
+   "rank": 45,
    "referral": "http://fubt.top/user/register.html?uid=167471",
    "register": "https://www.fubt.top/user/register.html",
    "trade_fee": "???",
    "twitter": "https://twitter.com/FubtBlockchain",
-   "update_date": "2018-04-26"
+   "update_date": "2018-07-05"
   },
   {
    "btc_withdraw_fee": "0.001",
@@ -5703,7 +5738,7 @@
    "location": "???",
    "min_withdraw": "0.002",
    "name": "KuCoin",
-   "rank": 47,
+   "rank": 46,
    "referral": "https://www.kucoin.com/#/?r=JaHgdx",
    "register": "https://www.kucoin.com/#/signup",
    "trade_fee": "0.1%",
@@ -5738,7 +5773,7 @@
    "location": "Turkey",
    "min_withdraw": "0.0",
    "name": "BitexLive",
-   "rank": 48,
+   "rank": 47,
    "referral": "https://bitexlive.com/register?refLink=Ref_bitexlive201804113",
    "register": "https://bitexlive.com/register",
    "trade_fee": "0.15% ",
@@ -5794,7 +5829,7 @@
    "location": "Hong Kong",
    "min_withdraw": "0.005",
    "name": "QBTC",
-   "rank": 49,
+   "rank": 48,
    "referral": "",
    "register": "https://www.qbtc.com/register",
    "trade_fee": "0%",
@@ -5819,7 +5854,7 @@
    "location": "???",
    "min_withdraw": "0.0",
    "name": "HPX",
-   "rank": 50,
+   "rank": 49,
    "referral": "https://www.hpx.com/user/register.html?forwardUrl=/&recommendCode=df75c333dd86",
    "register": "https://www.hpx.com/user/register.html",
    "trade_fee": "???",
@@ -5844,7 +5879,7 @@
    "location": "USA",
    "min_withdraw": "0.001",
    "name": "Nanex",
-   "rank": 51,
+   "rank": 50,
    "referral": "",
    "register": "https://nanex.co/auth/register",
    "trade_fee": "0.0%-0.2%",
@@ -5884,7 +5919,7 @@
    "location": "South Korea",
    "min_withdraw": "???",
    "name": "OkcoinKr",
-   "rank": 52,
+   "rank": 51,
    "referral": "",
    "register": "https://www.okcoinkr.com/account/register",
    "trade_fee": "-0.01%-0.04%",
@@ -5898,15 +5933,16 @@
      "name": "Bitcoin Cash",
      "symbol": "BCH",
      "url": "bitcoin-cash"
-    },
+    }
+   ],
+   "flag_color": "none",
+   "futures": [
     {
      "name": "Bitcoin Pizza",
      "symbol": "BPA",
      "url": "bitcoin-pizza"
     }
    ],
-   "flag_color": "none",
-   "futures": [],
    "homepage": "https://www.cccbtc.com/",
    "id": "cccbtc",
    "image": "images/exchanges/exchange-default-200x200.png",
@@ -5914,12 +5950,12 @@
    "location": "Cayman Islands",
    "min_withdraw": "0.01",
    "name": "CCCBTC",
-   "rank": 53,
+   "rank": 52,
    "referral": "",
    "register": "https://www.cccbtc.com/ccc/register",
    "trade_fee": "0.5%",
    "twitter": "",
-   "update_date": "2018-04-08"
+   "update_date": "2018-07-05"
   },
   {
    "btc_withdraw_fee": "0.0015",
@@ -5944,7 +5980,7 @@
    "location": "South Korea",
    "min_withdraw": "0.0",
    "name": "BitSeoul",
-   "rank": 54,
+   "rank": 53,
    "referral": "",
    "register": "https://www.bitseoul.com/account/signup",
    "trade_fee": "0.1%",
@@ -5990,7 +6026,7 @@
    "location": "Singapore",
    "min_withdraw": "0.0",
    "name": "Coin900",
-   "rank": 55,
+   "rank": 54,
    "referral": "http://coin900.com/signup?refer=COINBDNIGPNUX",
    "register": "https://coin900.com/signup",
    "trade_fee": "0.1%",
@@ -6021,7 +6057,7 @@
    "location": "Japan",
    "min_withdraw": "???",
    "name": "Quoine",
-   "rank": 56,
+   "rank": 55,
    "referral": "https://accounts.qryptos.com/sign-up?affiliate=T2fG6Wzh280028",
    "register": "https://trade.quoinex.com/sign-up",
    "trade_fee": "0.25%",
@@ -6057,7 +6093,7 @@
    "location": "Japan",
    "min_withdraw": "0.005",
    "name": "Qryptos",
-   "rank": 57,
+   "rank": 56,
    "referral": "https://accounts.qryptos.com/sign-up?affiliate=T2fG6Wzh280028",
    "register": "https://accounts.qryptos.com/sign-up",
    "trade_fee": "0.15%",
@@ -6087,7 +6123,7 @@
    "location": "Singapore",
    "min_withdraw": "???",
    "name": "DragonEx",
-   "rank": 58,
+   "rank": 57,
    "referral": "https://dragonex.im/account/register?inviteId=1133901",
    "register": "https://dragonex.im/account/register",
    "trade_fee": "2%",
@@ -6173,7 +6209,7 @@
    "location": "Canada",
    "min_withdraw": "???",
    "name": "BCEX",
-   "rank": 59,
+   "rank": 58,
    "referral": "",
    "register": "https://www.bcex.ca/user/reg",
    "trade_fee": "0.0",
@@ -6209,7 +6245,7 @@
    "location": "???",
    "min_withdraw": "0.005",
    "name": "Bibox",
-   "rank": 60,
+   "rank": 59,
    "referral": "https://www.bibox.com/login/register?id=11284066&lang=en",
    "register": "https://www.bibox.com/login/register",
    "trade_fee": "0.0%-0.1%",
@@ -6245,7 +6281,7 @@
    "location": "South Africa",
    "min_withdraw": "0.0",
    "name": "AltCoinTrader",
-   "rank": 61,
+   "rank": 60,
    "referral": "",
    "register": "https://www.altcointrader.co.za/register",
    "trade_fee": "0.8%",
@@ -6285,7 +6321,7 @@
    "location": "Brazil",
    "min_withdraw": "0.004",
    "name": "Braziliex",
-   "rank": 62,
+   "rank": 61,
    "referral": "",
    "register": "https://braziliex.com/exchange/signup.php",
    "trade_fee": "0.5%",
@@ -6315,7 +6351,7 @@
    "location": "US",
    "min_withdraw": "0.005",
    "name": "Kraken",
-   "rank": 63,
+   "rank": 62,
    "referral": "",
    "register": "https://www.kraken.com/en-us/signup",
    "trade_fee": "0.16%-0.26%",
@@ -6345,7 +6381,7 @@
    "location": "Singapore",
    "min_withdraw": "0.0",
    "name": "Coinbene",
-   "rank": 64,
+   "rank": 63,
    "referral": "",
    "register": "https://www.coinbene.com/#/",
    "trade_fee": "0.1%",
@@ -6375,7 +6411,7 @@
    "location": "Poland",
    "min_withdraw": "0.0",
    "name": "Cryptox",
-   "rank": 65,
+   "rank": 64,
    "referral": "https://cryptox.pl?SEG3ACWYF4",
    "register": "https://cryptox.pl/#",
    "trade_fee": "-0.1%-0.2%",
@@ -6441,7 +6477,7 @@
    "location": "Australia",
    "min_withdraw": "0.0",
    "name": "Coin918",
-   "rank": 66,
+   "rank": 65,
    "referral": "http://coin918.cc/?invit=TCFWDP",
    "register": "http://coin918.cc/Login/register.html",
    "trade_fee": "0.2%",
@@ -6471,7 +6507,7 @@
    "location": "???",
    "min_withdraw": "0",
    "name": "LetsDoCoinz",
-   "rank": 67,
+   "rank": 66,
    "referral": "https://letsdocoinz.com/?affiliate=717",
    "register": "https://letsdocoinz.com/register",
    "trade_fee": "0.1%",
@@ -6522,7 +6558,7 @@
    "location": "Hong Kong",
    "min_withdraw": "0.0",
    "name": "Bit-Z",
-   "rank": 68,
+   "rank": 67,
    "referral": "",
    "register": "https://www.bit-z.com/user/signup",
    "trade_fee": "0.1%",
@@ -6547,12 +6583,98 @@
    "location": "Hong Kong",
    "min_withdraw": "???",
    "name": "Dobi",
-   "rank": 69,
+   "rank": 68,
    "referral": "",
    "register": "https://www.dobitrade.com/",
    "trade_fee": "???",
    "twitter": "",
    "update_date": "2018-04-08"
+  },
+  {
+   "btc_withdraw_fee": "0.00011",
+   "deposit": [
+    {
+     "name": "MoneroV",
+     "symbol": "XMV",
+     "url": "monerov"
+    }
+   ],
+   "flag_color": "none",
+   "futures": [],
+   "homepage": "https://altex.exchange/",
+   "id": "altex-exchange",
+   "image": "images/exchanges/altex-exchange-200x200.png",
+   "kyc_withdraw": "False",
+   "location": "???",
+   "min_withdraw": "0",
+   "name": "Altex Exchange",
+   "rank": 69,
+   "referral": "https://altex.exchange/register&ref=11874",
+   "register": "https://altex.exchange/register",
+   "trade_fee": "0.2%",
+   "twitter": "https://twitter.com/Altex_exchangeR",
+   "update_date": "2018-06-29"
+  },
+  {
+   "btc_withdraw_fee": "0.001",
+   "deposit": [
+    {
+     "name": "Ethereum Classic",
+     "symbol": "ETC",
+     "url": "ethereum-classic"
+    }
+   ],
+   "flag_color": "none",
+   "futures": [
+    {
+     "name": "Bitcoin God",
+     "symbol": "GOD",
+     "url": "bitcoin-god"
+    }
+   ],
+   "homepage": "https://www.rightbtc.com/",
+   "id": "rightbtc",
+   "image": "images/exchanges/rightbtc-200x200.png",
+   "kyc_withdraw": "False",
+   "location": "Dubai",
+   "min_withdraw": "0",
+   "name": "RightBTC",
+   "rank": 70,
+   "referral": "",
+   "register": "https://www.rightbtc.com/#!/register",
+   "trade_fee": "0.1%",
+   "twitter": "https://twitter.com/Rightbtc_",
+   "update_date": "2018-06-29"
+  },
+  {
+   "btc_withdraw_fee": "???",
+   "deposit": [
+    {
+     "name": "Callisto",
+     "symbol": "CLO",
+     "url": "callisto-network"
+    },
+    {
+     "name": "EtherZero",
+     "symbol": "ETZ",
+     "url": "etherzero"
+    }
+   ],
+   "flag_color": "none",
+   "futures": [],
+   "homepage": "https://www.hqex.io/",
+   "id": "hqex",
+   "image": "images/exchanges/hqex-200x200.png",
+   "kyc_withdraw": "False",
+   "location": "???",
+   "min_withdraw": "???",
+   "name": "HQEX",
+   "rank": 71,
+   "referral": "",
+   "register": "https://www.hqex.io/",
+   "trade_fee": "???",
+   "twitter": "https://twitter.com/hqexio",
+   "update_date": "2018-06-29"
   },
   {
    "btc_withdraw_fee": "???",
@@ -6572,7 +6694,7 @@
    "location": "USA",
    "min_withdraw": "???",
    "name": "GDAX",
-   "rank": 70,
+   "rank": 72,
    "referral": "",
    "register": "https://www.gdax.com/",
    "trade_fee": "0-0.25%",
@@ -6597,7 +6719,7 @@
    "location": "???",
    "min_withdraw": "0.0011",
    "name": "Exchange Assets",
-   "rank": 71,
+   "rank": 73,
    "referral": "https://exchange-assets.com?ref=12472",
    "register": "https://exchange-assets.com/en/?registration",
    "trade_fee": "0%-0.25%",
@@ -6627,7 +6749,7 @@
    "location": "Taiwan",
    "min_withdraw": "0.0002",
    "name": "BitoPro",
-   "rank": 72,
+   "rank": 74,
    "referral": "",
    "register": "https://www.bitopro.com/",
    "trade_fee": "0.1-0.2%",
@@ -6657,7 +6779,7 @@
    "location": "Peru",
    "min_withdraw": "0.005",
    "name": "BitINKA",
-   "rank": 73,
+   "rank": 75,
    "referral": "",
    "register": "https://www.bitinka.com/pe/bitinka/register",
    "trade_fee": "0.5%",
@@ -6697,7 +6819,7 @@
    "location": "Hong Kong",
    "min_withdraw": "???",
    "name": "Bitfinex",
-   "rank": 74,
+   "rank": 76,
    "referral": "",
    "register": "https://www.bitfinex.com/",
    "trade_fee": "0.1%-0.2%",
@@ -6727,7 +6849,7 @@
    "location": "Hong Kong",
    "min_withdraw": "",
    "name": "Vipzbt",
-   "rank": 75,
+   "rank": 77,
    "referral": "",
    "register": "https://www.vipzbt.com/Login/register.html",
    "trade_fee": "???",
@@ -6752,7 +6874,7 @@
    "location": "???",
    "min_withdraw": "???",
    "name": "Biyun",
-   "rank": 76,
+   "rank": 78,
    "referral": "",
    "register": "https://biyun.net/Login/register.html",
    "trade_fee": "???",
@@ -6761,7 +6883,18 @@
   },
   {
    "btc_withdraw_fee": "???",
-   "deposit": [],
+   "deposit": [
+    {
+     "name": "Bitcoin Diamond",
+     "symbol": "BCD",
+     "url": "bitcoin-diamond"
+    },
+    {
+     "name": "Ethereum Classic",
+     "symbol": "ETC",
+     "url": "ethereum-classic"
+    }
+   ],
    "flag_color": "none",
    "futures": [],
    "homepage": "https://c-cex.com",
@@ -6771,12 +6904,12 @@
    "location": "???",
    "min_withdraw": "???",
    "name": "C-Cex",
-   "rank": 77,
+   "rank": 79,
    "referral": "",
    "register": "https://c-cex.com/?id=reg",
    "trade_fee": "???",
    "twitter": "https://twitter.com/CryptoCurrEncyX",
-   "update_date": "2018-04-24"
+   "update_date": "2018-06-29"
   },
   {
    "btc_withdraw_fee": "0.0001",
@@ -6796,7 +6929,7 @@
    "location": "???",
    "min_withdraw": "0.001",
    "name": "Oex",
-   "rank": 78,
+   "rank": 80,
    "referral": "",
    "register": "https://oex.com/user/register.html",
    "trade_fee": "0.2%",
@@ -6821,7 +6954,7 @@
    "location": "Taiwan",
    "min_withdraw": "",
    "name": "KTrade",
-   "rank": 79,
+   "rank": 81,
    "referral": "",
    "register": "https://www.ktrade.io",
    "trade_fee": "",
@@ -6866,12 +6999,37 @@
    "location": "???",
    "min_withdraw": "0.0",
    "name": "Coin2Coin",
-   "rank": 80,
+   "rank": 82,
    "referral": "https://coin2co.in/r/15195",
    "register": "https://coin2co.in/signup",
    "trade_fee": "0.0",
    "twitter": "",
    "update_date": "2018-04-08"
+  },
+  {
+   "btc_withdraw_fee": "0.5%",
+   "deposit": [
+    {
+     "name": "Bitcoin King",
+     "symbol": "BCK",
+     "url": "bitcoin-king"
+    }
+   ],
+   "flag_color": "none",
+   "futures": [],
+   "homepage": "https://www.ucoin.pw/",
+   "id": "u-coin",
+   "image": "images/exchanges/u-coin-200x200.png",
+   "kyc_withdraw": "???",
+   "location": "Australia",
+   "min_withdraw": "0.0",
+   "name": "U-Coin",
+   "rank": 83,
+   "referral": "https://www.ucoin.pw/reg?invitationCode=y3X1eQLWXxr",
+   "register": "https://www.ucoin.pw/reg",
+   "trade_fee": "0.2%",
+   "twitter": "https://twitter.com/uncoinex",
+   "update_date": "2018-04-24"
   },
   {
    "btc_withdraw_fee": "0.002",
@@ -6891,7 +7049,7 @@
    "location": "Hong Kong",
    "min_withdraw": "???",
    "name": "668ex",
-   "rank": 81,
+   "rank": 84,
    "referral": "",
    "register": "https://www.688ex.com/signup",
    "trade_fee": "0.2%",
@@ -6921,7 +7079,7 @@
    "location": "India",
    "min_withdraw": "0.00001",
    "name": "Bitbns",
-   "rank": 82,
+   "rank": 85,
    "referral": "",
    "register": "https://bitbns.com/trade/#/signup",
    "trade_fee": "0.25%",
@@ -6962,7 +7120,7 @@
    "location": "???",
    "min_withdraw": "???",
    "name": "BigONE",
-   "rank": 83,
+   "rank": 86,
    "referral": "",
    "register": "https://big.one/users/new",
    "trade_fee": "0.1%",
@@ -6987,7 +7145,7 @@
    "location": "Hong Kong",
    "min_withdraw": "",
    "name": "CoinW",
-   "rank": 84,
+   "rank": 87,
    "referral": "",
    "register": "https://www.coinw.com/newUser/register.html",
    "trade_fee": "0.2%",
@@ -7017,7 +7175,7 @@
    "location": "",
    "min_withdraw": "0.01",
    "name": "BIHUex",
-   "rank": 85,
+   "rank": 88,
    "referral": "",
    "register": "http://www.bihuex.com/html/login_register.html",
    "trade_fee": "2%",
@@ -7042,7 +7200,7 @@
    "location": "???",
    "min_withdraw": "0.001",
    "name": "Bitbitx",
-   "rank": 86,
+   "rank": 89,
    "referral": "",
    "register": "http://bitbitx.com/register.htm",
    "trade_fee": "0.2%",
@@ -7067,45 +7225,15 @@
    "location": "Hong Kong",
    "min_withdraw": "???",
    "name": "NIUBCoin",
-   "rank": 87,
+   "rank": 90,
    "referral": "",
    "register": "https://niubcoin.com/register",
    "trade_fee": "???",
    "twitter": "",
    "update_date": "2018-04-08"
-  },
-  {
-   "btc_withdraw_fee": "???",
-   "deposit": [
-    {
-     "name": "Bitcoin Private",
-     "symbol": "BTCP",
-     "url": "bitcoin-private"
-    },
-    {
-     "name": "BitCore",
-     "symbol": "BTX",
-     "url": "bitcore"
-    }
-   ],
-   "flag_color": "red",
-   "futures": [],
-   "homepage": "https://exvo.io/",
-   "id": "exvo",
-   "image": "images/exchanges/exvo-200x200.png",
-   "kyc_withdraw": "False",
-   "location": "???",
-   "min_withdraw": "0.001",
-   "name": "Exvo",
-   "rank": 88,
-   "referral": "",
-   "register": "https://exvo.io/signup",
-   "trade_fee": "0.05%-0.2%",
-   "twitter": "https://twitter.com/ExvoProject",
-   "update_date": "2018-05-11"
   }
  ],
- "exchanges_n": 88,
+ "exchanges_n": 90,
  "historic": [
   {
    "airdrop": false,
@@ -7173,7 +7301,7 @@
    "fork": false,
    "fork_block": "N/A",
    "fork_date": "N/A",
-   "github": "",
+   "github": "https://gitlab.com/bitcoinrh/BitcoinRhNodeV2",
    "id": "bitcoin-rhodium",
    "image": "images/forks/bitcoin-rhodium-200x200.png",
    "live": false,
@@ -7189,13 +7317,13 @@
    "source_chain": "???",
    "ticker": "BTR",
    "twitter": "https://twitter.com/BitCoinRh",
-   "update_date": "2018-05-21"
+   "update_date": "2018-06-28"
   },
   {
    "airdrop": false,
    "announcement": "",
    "coinmarketcap": "",
-   "depositable": true,
+   "depositable": false,
    "explorer": "",
    "flag_color": "none",
    "fork": false,
