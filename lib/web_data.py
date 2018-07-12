@@ -47,6 +47,27 @@ This script will treat the content in the file as the content at that URL.
 
 """
 
+BI_CAPTCHA_MSG ="""
+%s we attempted a request of the url:
+
+%s
+
+Blockchain.info sometimes rejects requests over Tor with a captcha as a defense
+against atomated scraping from anonymous sources. This might go away after
+waiting for a period of time. One option might be to try disconnecting and
+re-connecting to Tor in order to obtain a different exit point which might not
+be banned.
+
+A potential workaround is to visit this URL via Tor Browser and obtain the
+JSON.  If the --cache-requests option is used on this script and the parsable
+JSON content of this url is written to the file:
+
+%s
+
+This script will treat the content in the file as the content at that URL.
+
+"""
+
 class WebData(object):
     def __init__(self, tails=True, cache=False):
         if tails:
@@ -60,12 +81,23 @@ class WebData(object):
 
     def _check_captcha(self, r, url):
         if r.status_code != 403:
+            print("got status code %d from query to %s" % (r.status_code, url))
             return
         if "captcha" not in r.text:
+            print("Got 403 status from %s, but it doesn't seem to be a "
+                    "captcha issue (which sometimes occurs). "
+                    "this is unexpected what to do. If you can, please file "
+                    "an issue on the project github. Text of "
+                    "response: %s" % (url, r.text))
             return
+        dm = DirectoryManager()
         cache_file = dm.get_query_cache_path(url)
-        msg = CAPTCHA_MSG % (red_str("ERROR:"), url,
-                             chill_green_str(cache_file))
+        if "blockchainbdgpzk" in url:
+            msg = BI_CAPTCHA_MSG % (red_str("ERROR:"), url,
+                                    chill_green_str(cache_file))
+        else:
+            msg = CAPTCHA_MSG % (red_str("ERROR:"), url,
+                                 chill_green_str(cache_file))
         print(msg)
         sys.exit("*** could not fetch data at url - rejected")
 
