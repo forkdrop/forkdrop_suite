@@ -130,17 +130,28 @@ class WebData(object):
 
         return t
 
+    def _json_dl(self, url):
+        text = self._text_dl(url)
+        try:
+            j = json.loads(text)
+        except ValueError:
+            print("We expected to get a json-formatted response from the "
+                  "url: %s however, we were able to decode it. The text "
+                  "of the response is:\n\n%s" % (red_str(url), text))
+            sys.exit("*** could not decode response")
+        return j
+
     def fetch_forkdrop_info(self):
-        return json.loads(self._text_dl(FORKDROP_URL))
+        return self._json_dl(FORKDROP_URL)
 
     def fetch_tx_info(self, txid):
-        return json.loads(self._text_dl(self.tx_url % txid))
+        return self._json_dl(self.tx_url % txid)
 
     def fetch_addr_info(self, addr):
-        return json.loads(self._text_dl(self.addr_url % addr))
+        return self._json_dl(self.addr_url % addr)
 
     def fetch_web_url_json_info(self, url):
-        return json.loads(self._text_dl(url))
+        return self._json_dl(url)
 
     def fetch_web_url_text_info(self, url):
         return self._text_dl(url)
