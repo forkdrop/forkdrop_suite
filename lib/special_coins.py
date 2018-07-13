@@ -9,6 +9,7 @@ from lib.coin.fastbitcoin import FASTBITCOIN
 from lib.coin.bitcoin_hush import BITCOIN_HUSH
 from lib.coin.bitcore import BITCORE
 from lib.coin.bitcoin_candy import BITCOIN_CANDY
+from lib.coin.clams import CLAMS
 
 coins = [
     BITCOIN_CBC,
@@ -18,6 +19,7 @@ coins = [
     BITCOIN_HUSH,
     BITCORE,
     BITCOIN_CANDY,
+    CLAMS,
 ]
 
 COIN_QUALIFICATION_SPECIAL = {c['id']: c['qualification'] for c in coins

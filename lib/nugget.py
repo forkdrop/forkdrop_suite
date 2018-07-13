@@ -6,7 +6,7 @@
 import sys
 
 from lib.coin_amount import BasicCoinAmount, SpecialCoinAmount
-from lib.special_coins import SPECIAL_CLAIMER_LINE
+from lib.special_coins import SPECIAL_CLAIMER_LINE, COIN_AMOUNT_SPECIAL
 
 ###############################################################################
 # Nuggets - A nugget is a piece of value that most often corresponds to an
@@ -40,7 +40,9 @@ class BasicNugget(Nugget):
         self['txindex'] = span['funded']['n']
         self['txid'] = span['funded']['hash']
         self['nid'] = self._nugget_id()
-        self['coin_amount'] = BasicCoinAmount(coin, self['satoshis']).amount()
+        self['coin_amount'] = (SpecialCoinAmount(coin, self['satoshis']).amount() if
+                               self['coin_id'] in COIN_AMOUNT_SPECIAL.keys() else
+                               BasicCoinAmount(coin, self['satoshis']).amount())
         self['type'] = "basic"
 
 
