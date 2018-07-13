@@ -916,7 +916,7 @@
    ],
    "project": "http://clamcoin.org/",
    "rank": 9,
-   "ratio": "1:1",
+   "ratio": "N/A",
    "ratio_a": 1,
    "ratio_c": 1,
    "reg_airdrop": false,
@@ -925,7 +925,7 @@
    "source_chain": "Bitcoin (BTC)",
    "ticker": "CLAM",
    "twitter": "https://twitter.com/ClamClient",
-   "update_date": "2018-05-31"
+   "update_date": "2018-07-13"
   },
   {
    "airdrop": false,
@@ -1157,6 +1157,40 @@
   },
   {
    "airdrop": true,
+   "announcement": "",
+   "bech32": "???",
+   "bfc_support": "no",
+   "coinmarketcap": "",
+   "depositable": true,
+   "donation_addr": "",
+   "explorer": "http://www.bitcoinreferenceline.com:3003/",
+   "flag_color": "none",
+   "fork": false,
+   "fork_block": "523118",
+   "fork_date": "2018-05-17",
+   "github": "https://github.com/cadkas/bitcoinreco",
+   "id": "bitcoin-reference-line",
+   "image": "images/forks/bitcoin-reference-line-200x200.png",
+   "live": true,
+   "max_supply": "143 Million",
+   "name": "Bitcoin Reference Line",
+   "prefix_p2pkh": [],
+   "prefix_p2sh": [],
+   "project": "https://bitcoinreferenceline.com/",
+   "rank": 16,
+   "ratio": "1:1",
+   "ratio_a": 1,
+   "ratio_c": 1,
+   "reg_airdrop": false,
+   "segwit": "???",
+   "segwit_na": false,
+   "source_chain": "Bitcoin (BTC)",
+   "ticker": "BRECO",
+   "twitter": "https://twitter.com/recocoin",
+   "update_date": "2018-07-12"
+  },
+  {
+   "airdrop": true,
    "announcement": "https://bitcointalk.org/index.php?topic=3109563.0",
    "bech32": "???",
    "bfc_support": "special",
@@ -1181,7 +1215,7 @@
     5
    ],
    "project": "https://cleanblockchain.org/",
-   "rank": 16,
+   "rank": 17,
    "ratio": "<1:1",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -1219,7 +1253,7 @@
     5
    ],
    "project": "https://www.bitcointop.org/",
-   "rank": 17,
+   "rank": 18,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1257,7 +1291,7 @@
     5
    ],
    "project": "https://fbtc.pro/index-en.html",
-   "rank": 18,
+   "rank": 19,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1295,7 +1329,7 @@
     5
    ],
    "project": "http://www.bitvote.one/",
-   "rank": 19,
+   "rank": 20,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1333,7 +1367,7 @@
     88
    ],
    "project": "https://cdy.one/index_EN.html",
-   "rank": 20,
+   "rank": 21,
    "ratio": "1k:1",
    "ratio_a": 1000,
    "ratio_c": 1,
@@ -1371,7 +1405,7 @@
     5
    ],
    "project": "http://www.bitcoinwonder.io/",
-   "rank": 21,
+   "rank": 22,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1409,7 +1443,7 @@
     23
    ],
    "project": "https://www.bitcoingod.org/",
-   "rank": 22,
+   "rank": 23,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1447,7 +1481,7 @@
     5
    ],
    "project": "http://www.newbitcoin.org/index_en.html",
-   "rank": 23,
+   "rank": 24,
    "ratio": "2:1",
    "ratio_a": 2,
    "ratio_c": 1,
@@ -1485,7 +1519,7 @@
     5
    ],
    "project": "http://bicc.io/en",
-   "rank": 24,
+   "rank": 25,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -1523,7 +1557,7 @@
     5
    ],
    "project": "http://xenon.network/",
-   "rank": 25,
+   "rank": 26,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -1533,44 +1567,6 @@
    "source_chain": "Bitcoin (BTC)",
    "ticker": "XNN",
    "twitter": "https://twitter.com/XenonNet",
-   "update_date": "2018-05-31"
-  },
-  {
-   "airdrop": false,
-   "announcement": "",
-   "bech32": "???",
-   "bfc_support": "yes",
-   "coinmarketcap": "",
-   "depositable": true,
-   "donation_addr": "Fqbm3kSBARCWgfzfQCtBzy3me7NNdHNs2t",
-   "explorer": "",
-   "flag_color": "none",
-   "fork": true,
-   "fork_block": "500000",
-   "fork_date": "2017-12-18",
-   "github": "https://github.com/bitcoinfaith",
-   "id": "bitcoin-faith",
-   "image": "images/forks/bitcoin-faith-200x200.png",
-   "live": true,
-   "max_supply": "21,210,000",
-   "name": "Bitcoin Faith",
-   "prefix_p2pkh": [
-    36
-   ],
-   "prefix_p2sh": [
-    40
-   ],
-   "project": "http://bitcoinfaith.org/",
-   "rank": 26,
-   "ratio": "1:1",
-   "ratio_a": 1,
-   "ratio_c": 1,
-   "reg_airdrop": false,
-   "segwit": "True",
-   "segwit_na": false,
-   "source_chain": "Bitcoin (BTC)",
-   "ticker": "BTF",
-   "twitter": "https://twitter.com/BitcoinFaith",
    "update_date": "2018-05-31"
   },
   {
@@ -1992,6 +1988,44 @@
    "update_date": "2018-07-05"
   },
   {
+   "airdrop": false,
+   "announcement": "",
+   "bech32": "???",
+   "bfc_support": "yes",
+   "coinmarketcap": "",
+   "depositable": false,
+   "donation_addr": "Fqbm3kSBARCWgfzfQCtBzy3me7NNdHNs2t",
+   "explorer": "",
+   "flag_color": "none",
+   "fork": true,
+   "fork_block": "500000",
+   "fork_date": "2017-12-18",
+   "github": "https://github.com/bitcoinfaith",
+   "id": "bitcoin-faith",
+   "image": "images/forks/bitcoin-faith-200x200.png",
+   "live": false,
+   "max_supply": "21,210,000",
+   "name": "Bitcoin Faith",
+   "prefix_p2pkh": [
+    36
+   ],
+   "prefix_p2sh": [
+    40
+   ],
+   "project": "http://bitcoinfaith.org/",
+   "rank": 38,
+   "ratio": "1:1",
+   "ratio_a": 1,
+   "ratio_c": 1,
+   "reg_airdrop": false,
+   "segwit": "True",
+   "segwit_na": false,
+   "source_chain": "Bitcoin (BTC)",
+   "ticker": "BTF",
+   "twitter": "https://twitter.com/BitcoinFaith",
+   "update_date": "2018-07-12"
+  },
+  {
    "airdrop": true,
    "announcement": "",
    "bech32": "???",
@@ -2017,7 +2051,7 @@
     5
    ],
    "project": "http://bitcoinprime.org/",
-   "rank": 38,
+   "rank": 39,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2055,7 +2089,7 @@
     5
    ],
    "project": "http:/Anonymousbitcoin.io",
-   "rank": 39,
+   "rank": 40,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2093,7 +2127,7 @@
     5
    ],
    "project": "https://www.bitcoinparallel.org/",
-   "rank": 40,
+   "rank": 41,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -2131,7 +2165,7 @@
     5
    ],
    "project": "",
-   "rank": 41,
+   "rank": 42,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2169,7 +2203,7 @@
     5
    ],
    "project": "http://bitcoincloud.cash/",
-   "rank": 42,
+   "rank": 43,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2207,7 +2241,7 @@
     5
    ],
    "project": "https://www.bitcoinzerox.net/",
-   "rank": 43,
+   "rank": 44,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2245,7 +2279,7 @@
     5
    ],
    "project": "https://foxbtc.io/",
-   "rank": 44,
+   "rank": 45,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2279,7 +2313,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "https://microbitcoin.org/",
-   "rank": 45,
+   "rank": 46,
    "ratio": "10000:1",
    "ratio_a": 10000,
    "ratio_c": 1,
@@ -2317,7 +2351,7 @@
     5
    ],
    "project": "http://bitcoinclashic.org/",
-   "rank": 46,
+   "rank": 47,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2351,7 +2385,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "http://www.bitcoinair.org/",
-   "rank": 47,
+   "rank": 48,
    "ratio": "1:7.5",
    "ratio_a": 10,
    "ratio_c": 75,
@@ -2385,7 +2419,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "http://bitcoinhex.com/",
-   "rank": 48,
+   "rank": 49,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2419,7 +2453,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "https://www.bitcoinorigin.io/",
-   "rank": 49,
+   "rank": 50,
    "ratio": "???",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2457,7 +2491,7 @@
     38
    ],
    "project": "http://bitcoinlambo.tech/",
-   "rank": 50,
+   "rank": 51,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2495,7 +2529,7 @@
     5
    ],
    "project": "http://www.bitcoincashplus.org/",
-   "rank": 51,
+   "rank": 52,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2529,7 +2563,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "http://bitcoinclass.one/",
-   "rank": 52,
+   "rank": 53,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2567,7 +2601,7 @@
     5
    ],
    "project": "https://bitcoinpro.team",
-   "rank": 53,
+   "rank": 54,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2605,7 +2639,7 @@
     5
    ],
    "project": "http://bitcoinall.org/",
-   "rank": 54,
+   "rank": 55,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -2643,7 +2677,7 @@
     5
    ],
    "project": "http://www.bitcoinore.org/",
-   "rank": 55,
+   "rank": 56,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2681,7 +2715,7 @@
     5
    ],
    "project": "http://www.btcscoin.com/index_en.html",
-   "rank": 56,
+   "rank": 57,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -2719,7 +2753,7 @@
     5
    ],
    "project": "http://qeditas.org/",
-   "rank": 57,
+   "rank": 58,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2757,7 +2791,7 @@
     5
    ],
    "project": "http://www.bitcoinholocaust.org/",
-   "rank": 58,
+   "rank": 59,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2795,7 +2829,7 @@
     5
    ],
    "project": "http://www.btcti.org/",
-   "rank": 59,
+   "rank": 60,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2833,7 +2867,7 @@
     5
    ],
    "project": "http://bcs.info/",
-   "rank": 60,
+   "rank": 61,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -2871,7 +2905,7 @@
     5
    ],
    "project": "https://bitcoindollar.io/",
-   "rank": 61,
+   "rank": 62,
    "ratio": "N/A",
    "ratio_a": 0,
    "ratio_c": 0,
@@ -2909,7 +2943,7 @@
     5
    ],
    "project": "http://www.smartbitcoin.one/",
-   "rank": 62,
+   "rank": 63,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2947,7 +2981,7 @@
     5
    ],
    "project": "https://bitclassic.info",
-   "rank": 63,
+   "rank": 64,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -2985,7 +3019,7 @@
     5
    ],
    "project": "http://www.oilbtc.io/index_en.html",
-   "rank": 64,
+   "rank": 65,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3019,7 +3053,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "",
-   "rank": 65,
+   "rank": 66,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3057,7 +3091,7 @@
     5
    ],
    "project": "http://bitcoinboy.org/",
-   "rank": 66,
+   "rank": 67,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -3095,7 +3129,7 @@
     5
    ],
    "project": "https://btcblvck.io/",
-   "rank": 67,
+   "rank": 68,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3133,7 +3167,7 @@
     5
    ],
    "project": "http://biteco.io/",
-   "rank": 68,
+   "rank": 69,
    "ratio": "10k:1",
    "ratio_a": 10000,
    "ratio_c": 1,
@@ -3171,7 +3205,7 @@
     5
    ],
    "project": "https://bitcoincoral.com/",
-   "rank": 69,
+   "rank": 70,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3209,7 +3243,7 @@
     5
    ],
    "project": "http://bitcoinsudu.com/",
-   "rank": 70,
+   "rank": 71,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3247,7 +3281,7 @@
     5
    ],
    "project": "https://www.bithot.org/",
-   "rank": 71,
+   "rank": 72,
    "ratio": "100:1",
    "ratio_a": 100,
    "ratio_c": 1,
@@ -3285,7 +3319,7 @@
     5
    ],
    "project": "https://btcking.org/",
-   "rank": 72,
+   "rank": 73,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3319,7 +3353,7 @@
    "prefix_p2pkh": [],
    "prefix_p2sh": [],
    "project": "https://btcx2.com/",
-   "rank": 73,
+   "rank": 74,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3357,7 +3391,7 @@
     5
    ],
    "project": "https://www.bitcoinmetal.org/",
-   "rank": 74,
+   "rank": 75,
    "ratio": "1:1",
    "ratio_a": 1,
    "ratio_c": 1,
@@ -3371,7 +3405,7 @@
   }
  ],
  "bitcoin_donation": "3QLFLTTuV82LzJUMzh2RoDW2t7FeHLYYad",
- "bitcoin_n": 74,
+ "bitcoin_n": 75,
  "exchanges": [
   {
    "btc_withdraw_fee": "0.5%",
@@ -3422,6 +3456,11 @@
      "url": "segwit2x"
     },
     {
+     "name": "Bitcoin Reference Line",
+     "symbol": "BRECO",
+     "url": "bitcoin-reference-line"
+    },
+    {
      "name": "Ethereum Classic",
      "symbol": "ETC",
      "url": "ethereum-classic"
@@ -3462,7 +3501,7 @@
    "register": "https://exrates.me/register",
    "trade_fee": "0.02%",
    "twitter": "https://twitter.com/Exrates_Me",
-   "update_date": "2018-04-08"
+   "update_date": "2018-07-12"
   },
   {
    "btc_withdraw_fee": "0.0003",
@@ -4426,11 +4465,6 @@
      "url": "bitcoin-candy"
     },
     {
-     "name": "Bitcoin Faith",
-     "symbol": "BTF",
-     "url": "bitcoin-faith"
-    },
-    {
      "name": "Bitcoin Pay",
      "symbol": "BTP",
      "url": "bitcoin-pay"
@@ -4457,7 +4491,13 @@
     }
    ],
    "flag_color": "red",
-   "futures": [],
+   "futures": [
+    {
+     "name": "Bitcoin Faith",
+     "symbol": "BTF",
+     "url": "bitcoin-faith"
+    }
+   ],
    "homepage": "http://bitpie.com",
    "id": "bitpie",
    "image": "images/exchanges/bitpie-200x200.png",
@@ -4470,7 +4510,7 @@
    "register": "",
    "trade_fee": "???",
    "twitter": "https://twitter.com/BitpieWallet",
-   "update_date": "2018-06-18"
+   "update_date": "2018-07-12"
   },
   {
    "btc_withdraw_fee": "0.001",
@@ -4668,11 +4708,6 @@
      "url": "fastbitcoin"
     },
     {
-     "name": "Bitcoin Faith",
-     "symbol": "BTF",
-     "url": "bitcoin-faith"
-    },
-    {
      "name": "Ethereum Classic",
      "symbol": "ETC",
      "url": "ethereum-classic"
@@ -4704,6 +4739,11 @@
      "name": "Quantum Bitcoin",
      "symbol": "QBTC",
      "url": "bitcoin-quantum"
+    },
+    {
+     "name": "Bitcoin Faith",
+     "symbol": "BTF",
+     "url": "bitcoin-faith"
     }
    ],
    "homepage": "https://www.btctrade.im",
@@ -4718,7 +4758,7 @@
    "register": "https://www.btctrade.im/user/register",
    "trade_fee": "0.1%",
    "twitter": "https://twitter.com/btctradeim",
-   "update_date": "2018-04-28"
+   "update_date": "2018-07-12"
   },
   {
    "btc_withdraw_fee": "0.003",
@@ -6172,14 +6212,14 @@
      "url": "bitcoin-god"
     },
     {
-     "name": "Bitcoin Faith",
-     "symbol": "BTF",
-     "url": "bitcoin-faith"
-    },
-    {
      "name": "Bitcoin File",
      "symbol": "BIFI",
      "url": "bitcoin-file"
+    },
+    {
+     "name": "Bitcoin Faith",
+     "symbol": "BTF",
+     "url": "bitcoin-faith"
     },
     {
      "name": "Bitcoin Eco",
