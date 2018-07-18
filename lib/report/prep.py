@@ -37,7 +37,7 @@ unclaimed - total balance of coin not marked as claimed
 class CoinBreakdown(ReportBase):
     def _coin_title(self):
         mt = "b/n/nc/uc/nu"
-        return "%-25s %12s %20s %20s %20s" % ("coin", mt, "claimed", "concern",
+        return "%-28s %12s %20s %20s %20s" % ("coin", mt, "claimed", "concern",
                                               "unclaimed")
     def _coin_line(self, coin):
         name = "%s (%s)" % (coin['name'], coin['ticker'])
@@ -53,7 +53,7 @@ class CoinBreakdown(ReportBase):
         s_unclaimed = self.nuggets.coin_unclaimed_sum_str(coin['id'])
 
         mt = "%s/%d/%d/%d/%d" % (b, n, nc, uc, nu)
-        return "%-25s %12s %20s %20s %20s" % (name, mt, s_claimed, s_concern,
+        return "%-28s %12s %20s %20s %20s" % (name, mt, s_claimed, s_concern,
                                               s_unclaimed)
 
 
@@ -109,7 +109,7 @@ unclaimed - total balance of coin not marked as claimed
 class AddressBreakdown(ReportBase):
     def _title(self):
         mt = "b/nc/uc/nu"
-        return "%-25s %12s %20s %20s %20s" % ("coin", mt, "claimed", "concern",
+        return "%-28s %12s %20s %20s %20s" % ("coin", mt, "claimed", "concern",
                                               "unclaimed")
 
     def _coin_line(self, coin, addr):
@@ -129,7 +129,7 @@ class AddressBreakdown(ReportBase):
         s_unclaimed = self.nuggets.addr_unclaimed_coin_sum_str(coin['id'],
                                                                addr['addr'])
         mt = "%s/%d/%d/%d" % (b, nc, uc, nu)
-        return "%-25s %12s %20s %20s %20s" % (name, mt, s_claimed, s_concern,
+        return "%-28s %12s %20s %20s %20s" % (name, mt, s_claimed, s_concern,
                                               s_unclaimed)
 
     def _address_report(self, addr):
