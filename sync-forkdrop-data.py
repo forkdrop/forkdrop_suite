@@ -5,23 +5,24 @@
 
 import argparse
 
-from lib.tails import check_tails
-from lib.options import not_tails_arg
-
 from lib.web_data import WebData
 from lib.utl.dir_manager import DirectoryManager
 from lib.utl.file_manager import FileManager
 
+from lib.args import add_args, validate_args
+
+
+ARGS = ['not_tails']
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Pull down the current fork metadata from forkdrop.io")
-    not_tails_arg(parser)
+
+    add_args(parser, ARGS)
     settings = parser.parse_args()
+    validate_args(settings, ARGS)
 
-    tails = not settings.not_tails
-    check_tails(tails)
-
-    wd = WebData(tails=tails)
+    wd = WebData(tails=(not settings.not_tails))
     coin_data = wd.fetch_forkdrop_info()
     dm = DirectoryManager()
     p = dm.get_forkdrop_file()

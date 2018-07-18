@@ -11,18 +11,21 @@ from lib.claimed_nuggets import ClaimedNuggets
 from lib.options import claim_save_file_arg, claim_save_file_arg_validate
 from lib.options import nugget_id_arg
 
+from lib.args import add_args, validate_args
+
 ###############################################################################
 # main
 ###############################################################################
 
+ARGS = ['claim_save_file', 'nugget_id']
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Mark the output claimed in save file")
+        description="Mark the output as claimed in save file")
 
-    claim_save_file_arg(parser)
-    nugget_id_arg(parser)
+    add_args(parser, ARGS)
     settings = parser.parse_args()
-    claim_save_file_arg_validate(settings.claim_save_file)
+    validate_args(settings, ARGS)
 
     cn = ClaimedNuggets(settings.claim_save_file)
     if settings.nugget_id not in cn.keys():

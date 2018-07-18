@@ -13,37 +13,40 @@ from lib.tails import check_tails
 from lib.claimed_nuggets import ClaimedNuggets
 
 from lib.report.direct_query import DirectQueryReport
-
-from lib.options import address_list_arg, not_tails_arg, cache_request_arg
-from lib.options import bfc_force_arg, claim_save_file_arg, coin_id_arg
-from lib.options import claim_save_file_arg, claim_save_file_arg_validate
-
 from lib.special_coins import DIRECT_QUERY
+
+from lib.args import add_args, validate_args
+
+
+
+###############################################################################
+
+COIN_ID = """Selected coin ID for this query."""
+
+def coin_id_arg(parser, ids):
+    ids = sorted(list(ids))
+    parser.add_argument('coin_id',  action='store', choices=ids, help=COIN_ID)
 
 ###############################################################################
 # main
 ###############################################################################
 
+ARGS = ['claim_save_file', 'cache_requests', 'address_list', 'not_tails',
+        'electrum_server', 'electrum_port', 'electrum_no_ssl', 'bfc_force']
+
+DESCRIPTION = """"Find balances for a paritcular coin on a list of addresses by
+querying that particular coin's network and prepare claiming instructions for a
+set of provided addresses. Note this sill needs to query the Bitcoin (BTC)
+transaction record via block explorer or Electrum server to help understand the
+block ranges balances were helds"""
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        description="Find balances for a paritcular coin on a list of "
-                    "addresses by querying that particular coin's network "
-                    "and prepare claiming instructions for a set of provided "
-                    "addresses.")
+    parser = argparse.ArgumentParser(description=DESCRIPTION)
 
-    claim_save_file_arg(parser)
     coin_id_arg(parser, DIRECT_QUERY.keys())
-    address_list_arg(parser)
-    not_tails_arg(parser)
-    cache_request_arg(parser)
-    bfc_force_arg(parser)
-
+    add_args(parser, ARGS)
     settings = parser.parse_args()
-
-    claim_save_file_arg_validate(settings.claim_save_file)
-    tails = not settings.not_tails
-    check_tails(tails)
+    validate_args(settings, ARGS)
 
     vdb = ValueDb(settings)
 
