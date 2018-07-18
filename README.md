@@ -61,3 +61,6 @@ sync-forkdrop-data.py
 This repository provides the relevant dataset from [Forkdrop.io](https://forkdrop.io) for offline private use by the scripts, however it is frozen at the time of the last update of the file in this branch. The dataset changes over time on the live website.
 
 This script pulls down the current dataset from the site over Tor and overwrites the local copy.
+Third Party Code
+================
+The `bitcoin/` subdirectory contains code from [python-bitcoinlib](https://github.com/petertodd/python-bitcoinlib) which is licensed under LGPL v3 (or later)

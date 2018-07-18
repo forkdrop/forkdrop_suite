@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+~~~~~~~
+
+Third party:
+
+The bitcoin/ subdirectory contains code from https://github.com/petertodd/python-bitcoinlib which is licensed under LGPL v3 as per: https://github.com/petertodd/python-bitcoinlib/blob/master/LICENSE which permits its use here.
