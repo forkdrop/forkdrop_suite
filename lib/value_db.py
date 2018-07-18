@@ -2,9 +2,8 @@
 # Distributed under the MIT software license, see the accompanying
 # file LICENSE or http://www.opensource.org/licenses/mit-license.php
 
-from lib.address_info import AddressInfo
+from lib.address_info import BlockchainAddressInfo, ElectrumAddressInfo
 from lib.nugget_list import NuggetList
-from lib.web_data import WebData
 from lib.forkdrop_info import ForkdropInfo
 
 ###############################################################################
@@ -18,12 +17,10 @@ class ValueDb(dict):
         addrs.sort()
         self.forkdrop_info = ForkdropInfo()
         self.tails = not settings.not_tails
-        self.cache = settings.cache_requests
         self.bfc_force = settings.bfc_force
         self.claim_save_file = settings.claim_save_file
-        self.wd = WebData(tails=self.tails, cache=self.cache)
 
-        self['addrs'] = [AddressInfo(self.wd, addr) for addr in addrs]
+        self['addrs'] = self._get_address_info(settings, addrs)
         self['basic_coins'] = [c for c in self.forkdrop_info['bitcoin'] if
                                self._classify(c) == "basic"]
         self['basic_coins'].sort(key=lambda x: self._coin_sort(x))
@@ -39,6 +36,12 @@ class ValueDb(dict):
         self['exchanges'] = self.forkdrop_info['exchanges']
         self['nuggets'] = NuggetList(self, tails=self.tails,
                                      bfc_force=self.bfc_force)
+
+    def _get_address_info(self, settings, addrs):
+        if settings.electrum_server:
+            return [ElectrumAddressInfo(settings, addr) for addr in addrs]
+        else:
+            return [BlockchainAddressInfo(settings, addr) for addr in addrs]
 
     def _coin_sort(self, coin):
         bfc = (0 if coin['bfc_support'] == "yes" else 1 if

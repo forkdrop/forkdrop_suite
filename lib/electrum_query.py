@@ -32,13 +32,21 @@ class ElectrumQuery(object):
                                      proxy_port=9050) if self.tails else
              socket.create_connection((self.server, self.port)))
         self.socket = ssl.wrap_socket(s) if self.ssl else s
-        print("opened connection to: %s" %
-              chill_yellow_str("%s:%d" % (self.server, self.port)))
+        if ".onion" in self.server:
+            print("opened connection to: %s" %
+                  chill_green_str("%s:%d" % (self.server, self.port)))
+        else:
+            print("opened connection to: %s" %
+                  chill_yellow_str("%s:%d" % (self.server, self.port)))
 
     def _destroy_socket(self):
         self.socket.close()
-        print("closed connection to: %s" %
-              chill_yellow_str("%s:%d" % (self.server, self.port)))
+        if ".onion" in self.server:
+            print("closed connection to: %s" %
+                  chill_green_str("%s:%d" % (self.server, self.port)))
+        else:
+            print("closed connection to: %s" %
+                  chill_yellow_str("%s:%d" % (self.server, self.port)))
 
     def _query_id_str(self, msg):
         return "%s:%s/%s" % (self.server, self.port, msg)
