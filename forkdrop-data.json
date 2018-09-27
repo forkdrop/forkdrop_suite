@@ -847,7 +847,7 @@
    "bfc_support": "yes",
    "coinmarketcap": "",
    "depositable": true,
-   "donation_addr": "XNkfL7gwLXqK6ByMDELVWLG2WiD19koeSF",
+   "donation_addr": "BfC75o5pYh8P1x971g1skBvUfzanHFC42T",
    "explorer": "https://microbitcoinorg.github.io/explorer/#/",
    "flag_color": "none",
    "fork": true,
@@ -860,7 +860,7 @@
    "max_supply": "210 Billion",
    "name": "MicroBitcoin",
    "prefix_p2pkh": [
-    75
+    26
    ],
    "prefix_p2sh": [
     51
@@ -876,7 +876,7 @@
    "source_chain": "Bitcoin (BTC)",
    "ticker": "MBC",
    "twitter": "https://twitter.com/microbitcoinorg",
-   "update_date": "2018-09-12"
+   "update_date": "2018-09-26"
   },
   {
    "airdrop": true,
@@ -1191,7 +1191,7 @@
    "bfc_support": "no",
    "coinmarketcap": "",
    "depositable": true,
-   "donation_addr": "",
+   "donation_addr": "XBMpm3keetWqJHsmq6WX2gNqY6yt4xZaGk",
    "explorer": "https://chainz.cryptoid.info/bzx/",
    "flag_color": "none",
    "fork": false,
@@ -1220,7 +1220,7 @@
    "source_chain": "Bitcoin (BTC)",
    "ticker": "BZX",
    "twitter": "https://twitter.com/BitcoinZer0X",
-   "update_date": "2018-09-21"
+   "update_date": "2018-09-26"
   },
   {
    "airdrop": true,
@@ -1229,7 +1229,7 @@
    "bfc_support": "no",
    "coinmarketcap": "",
    "depositable": true,
-   "donation_addr": "",
+   "donation_addr": "AnWg1PgRW6tGh3a48EdHjP7PisyBoxvHCAY",
    "explorer": "",
    "flag_color": "none",
    "fork": false,
@@ -1260,7 +1260,7 @@
    "source_chain": "Bitcoin (BTC)",
    "ticker": "ANON",
    "twitter": "https://twitter.com/ANON_WeAreANON",
-   "update_date": "2018-09-22"
+   "update_date": "2018-09-26"
   },
   {
    "airdrop": true,
@@ -1303,7 +1303,7 @@
    "bfc_support": "no",
    "coinmarketcap": "",
    "depositable": true,
-   "donation_addr": "",
+   "donation_addr": "CNkftiexgYnaG6yh96rSV7eLkPH3MVVtik",
    "explorer": "http://classicbitcoin.info/explorer",
    "flag_color": "none",
    "fork": true,
@@ -1332,7 +1332,7 @@
    "source_chain": "Bitcoin (BTC)",
    "ticker": "CBTC",
    "twitter": "https://twitter.com/bitclassic2",
-   "update_date": "2018-09-22"
+   "update_date": "2018-09-26"
   },
   {
    "airdrop": true,
