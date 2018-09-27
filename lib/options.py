@@ -4,11 +4,13 @@
 
 import os
 
-
 ADDRESS_LIST = """list of public Bitcoin addresses for the tool to examine"""
 
 def address_list_arg(parser):
     parser.add_argument('addresses', type=str, nargs="+", help=ADDRESS_LIST)
+
+def validate_address_list_arg(settings):
+    pass
 
 
 CLAIM_SAVE_FILE = """Path to file that saves which outputs have been claimed.

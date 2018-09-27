@@ -29,7 +29,9 @@ This set of scripts generates instructions for using the [bitcoin\_fork\_claimer
 claim-prep.py
 =============
 
-This tool takes a list of public addresses and queries [blockchain.info's onion gateway](https://blockchainbdgpzk.onion) to obtain the balances that the addresses may have held during relevant periods for getting credited with fork and airdrop value.
+This tool takes a list of public addresses and (optionally) queries [blockchain.info's onion gateway](https://blockchainbdgpzk.onion) to obtain the balances that the addresses may have held during relevant periods for getting credited with fork and airdrop value.
+
+Unfortunately, [blockchain.info's onion gateway](https://blockchainbdgpzk.onion)gateway has downtime, and sometimes rejects queries with a captcha to limit automated use (such as this). `claim-prep.py` has the option to provide an Electrum server to query address transaction history info from with the `--electrum-server` parameter. A .onion Electrum server can be selected here when on TAILS (or another system configured for Tor). `--electrum-port` and `--electrum-no-ssl` are also options that may be necessary for connecting to the Electrum server of your choosing.
 
 The output is a generated report detailing which coins have been credited along with a long, detailed list of tailored instructions for claiming the value over Tor by providing the private key to the [bitcoin\_fork\_claimer](https://github.com/ymgve/bitcoin_fork_claimer) tool with the appropriate wrapper.
 
@@ -61,3 +63,12 @@ sync-forkdrop-data.py
 This repository provides the relevant dataset from [Forkdrop.io](https://forkdrop.io) for offline private use by the scripts, however it is frozen at the time of the last update of the file in this branch. The dataset changes over time on the live website.
 
 This script pulls down the current dataset from the site over Tor and overwrites the local copy.
+
+Bech32 Addresses
+================
+
+Unfortunately, this set of tools does not support bech32 addresses since it relies on third party infrastructure (block explorers, Electrum servers) that don't currently have support. bitcoin\_fork\_claimer has limited support for bech32, but you must find the associated parameters yourself.
+
+Third Party Code
+================
+The `bitcoin/` subdirectory contains code from [python-bitcoinlib](https://github.com/petertodd/python-bitcoinlib) which is licensed under LGPL v3 (or later)
